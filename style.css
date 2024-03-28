@@ -1,10 +1,21 @@
+
+h2 {
+  background-color:orange;
+
+}
+
+h1 {
+  background-color:orange;
+}
+
 html {
-  height: 100%;
-  width: 100%;
+
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 #welcome {
-  background-color:purple;
+  background-color:orange;
   text-align:center;
 }
 
@@ -36,14 +47,11 @@ legend {
   background-color:lightblue;
 }
 
-h3 {
-  text-align:center
-  
-  
-}
+
 
 fieldset {
   text-align:center;
+  background-color:lightblue;
 }
 
 .middle-pics {
@@ -55,16 +63,11 @@ fieldset {
   }
 .fact-pics {
 
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width: 40%;
-  
-}
-
+ 
+  width: 20%;
  
   
-
+}
 
 figcaption {
   font-size: 20px;
@@ -72,6 +75,8 @@ figcaption {
 
 body {
   background-color:lightgrey;
+  max-width: 100%;
+  overflow-x: hidden;
   
 }
 
@@ -83,3 +88,25 @@ footer {
   width:150%;
   height:25%;
 }
+
+p {
+  text-align:center;
+}
+
+h3 {
+  
+ 
+  text-align:center
+  
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
