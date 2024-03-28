@@ -2,3 +2,84 @@ html {
   height: 100%;
   width: 100%;
 }
+
+#welcome {
+  background-color:purple;
+  text-align:center;
+}
+
+.orange-highlight {
+  background-color:orange;
+}
+.green-highlight {
+  background-color:green;
+
+}
+.homepage:hover {
+  color:brown;
+
+}
+ul {
+ text-align:center;
+  list-style-type:none;
+}
+
+legend {
+  font-weight:bold;
+  background: orange;
+  width: 100%
+}
+
+
+
+#submit {
+  background-color:lightblue;
+}
+
+h3 {
+  text-align:center
+  
+  
+}
+
+fieldset {
+  text-align:center;
+}
+
+.middle-pics {
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  }
+.fact-pics {
+
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 40%;
+  
+}
+
+ 
+  
+
+
+figcaption {
+  font-size: 20px;
+}
+
+body {
+  background-color:lightgrey;
+  
+}
+
+footer {
+  background-color:purple;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:150%;
+  height:25%;
+}

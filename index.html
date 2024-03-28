@@ -1,102 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <!-- Make sure to log stages to github -->
+    <!-- Make sure to log stages to github
+    python3 -m http.server
+    Cntrl-C to stop 
+    -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The Cat Crazy Forum</title>
-
-    <style>
-      #welcome {
-        background-color:purple;
-        text-align:center;
-      }
-      
-      .orange-highlight {
-        background-color:orange;
-      }
-      .green-highlight {
-        backround-color:green;
-
-      }
-      .homepage:hover {
-        color:brown;
-
-      }
-      ul {
-       text-align:center;
-        list-style-type:none;
-      }
-
-      legend {
-        font-weight:bold;
-        background: orange;
-        width: 100%
-      }
-
-
-      
-      #submit {
-        background-color:lightblue;
-      }
-
-      h3 {
-        text-align:center
-        
-        
-      }
-      
-      fieldset {
-        text-align:center;
-      }
-
-      .middle-pics {
-       
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
-        }
-      .fact-pics {
-
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        width: 40%;
-        
-      }
-
-      p {
-        
-      }
-
-      figcaption {
-        font-size: 20px;
-      }
-
-      body {
-        background-color:lightgrey;
-        
-      }
-
-      footer {
-        background-color:purple;
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        width:150%;
-        height:25%;
-      }
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="The Cat Crazy Webpage! Come and see our adorable site,
+     monthly meetups, competitions , quizes and more!">
+     <meta name="keywords" content="cats, adorable, funny-cats, exeter, quizes">
+     <meta name="author" content="MaxWiseman">
+     <title>Cat Lover's Retreat</title>
 
    
-    </style>
   </head>
   <body>
     <header>
       <div style="display: inline;">
           <img src="https://www.freewebheaders.com/wp-content/gallery/cats/cats-header-20740-800x200.jpg" width="100%" height="80" />
-          <h1 style="position: absolute; top:1px; background-color:purple">Cat Crazy Page!</h1>
+          <h1 style="position: absolute; top:1px; background-color:purple">Cat Lover's Retreat</h1>
       </div>
       
     
@@ -122,14 +46,55 @@
 
         <article>
 
-        <ul>Here are some of my favorite cat breeds:
-          <li>Ragdoll</li>
-          <li>Bengal</li>
-          <li>Sphynx</li>
-          <li>Tabby</li>
-        </ul>
+          <p>At Cat Lover Retreat, we're passionate about all things feline! Whether you're a devoted cat parent,
+             a seasoned cat enthusiast, or simply someone who adores these majestic creatures, you've come to the right place.
+
+           
+              </li>
+
+                <li>Cat Care Tips & Advice: Invaluable insights to help you give your furry friend the best care possible.
+                  <ul>
+                    <li>nutrition to grooming</li>
+                    <li>behavior to health</li>
+                    <li>comprehensive guides and articles</li>
+
+                  </ul>
+                </li>
+
+                  <li>Breed Profiles: Explore the diverse world of cat breeds.
+                   
+                    <ul>
+                      <li>Bengal</li>
+                      <li>Sphynx</li>
+                      <li>Tabby</li>
+                      <li>Ragdoll</li>
+                      <li>Elegant Siamese</li>
+                      <li>Fluffy Maine Coon</li>
+                      <li>Learn about each breed's unique characteristics
+                        <ul>
+                          <li>Temperament</li>
+                          <li>History</li>
+                          <li>Personality</li>
+                        </ul>
+                      </li>
+
+                    </ul>
+                  </li>
+
+                    <li>Community Forums: Connect with fellow cat lovers from around the globe in our vibrant online community.
+                      <ul>
+                        <li>Share stories</li>
+                        <li>Seek advice</li>
+                        <li>Bond over your mutual love of all things cat-related</li>
+                      </ul>
+                    </li>
+             </ul>
+             
+
+    
 
       </div>
+      
       <hr>
       <form method="post">
         <fieldset style="background-color:lightblue;">
@@ -143,6 +108,7 @@
         </fieldset>  
       </form> 
     </div>
+    <section id="cat-question">
     <br>
     <div>
       <form>
@@ -175,6 +141,7 @@
 
 
     <br>
+      
         
       </form>
     <form>
@@ -207,12 +174,15 @@
         <hr>
         <input type="submit" id="submit">
 
+      </section>
 
       
     </fielset>
       
       </form>
     </div>
+    <section id="cat-quiz">
+    <div>
     <br>
     <br>
     
@@ -223,7 +193,7 @@
       <br>
   <fieldset>
     <h2 style="background-color:violet;"><em>Cat Facts!</em></h2>
-    <section>
+    
       <hr>
       
   <figure>
@@ -253,10 +223,10 @@
       </figure>
 
 
-      
+    </div>
     </section>
   </fieldset>   
-    <section>
+    <section id="cat-trivia">
       <fieldset>
 
         <h1>Cat Trivia!</h1>
