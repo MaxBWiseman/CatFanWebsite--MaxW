@@ -1,3 +1,7 @@
+* {
+  
+  font-family: cursive, sans-serif, monospace;
+}
 
 h2 {
   background-color:orange;
@@ -30,9 +34,15 @@ html {
   color:brown;
 
 }
+
 ul {
- text-align:center;
-  list-style-type:none;
+  list-style-type: none;
+  
+}
+
+ul li::before {
+  content: '🐈';
+  
 }
 
 legend {
@@ -55,19 +65,13 @@ fieldset {
 }
 
 .middle-pics {
- 
+
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   }
-.fact-pics {
 
- 
-  width: 20%;
- 
-  
-}
 
 figcaption {
   font-size: 20px;
@@ -78,6 +82,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   
+
 }
 
 footer {
@@ -85,22 +90,33 @@ footer {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width:150%;
-  height:25%;
+  height:3%;
+  
+  bottom:0;
+  width:100%;
+  right:0;
 }
 
 p {
   text-align:center;
+  
+}
+
+.border {
+  border-color:purple;
+  border-radius:20px;
+  border-style:solid;
 }
 
 h3 {
-  
- 
+
+
   text-align:center
-  
+
 }
 .row {
   display: flex;
+  
 }
 
 .column {
@@ -112,19 +128,154 @@ h3 {
   float:inline-end;
 }
 
+.border {
+  border-style:solid;
+  border-radius:20px;
+  border-color:purple;
+}
+
+.border2 {
+  border-radius:50%;
+  border-color:orange;
+  border-style:solid;
+  background-color:orange;
+  text-align:center;
+  
+
+
+}
+
+/* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 .container {
-  position: relative; /* Set the container as the reference for absolute positioning */
-  text-align: center; /* Center the text horizontally */
-  color: rgb(6, 0, 0); /* Set the text color */
+  position: relative; 
+  text-align: center; 
+  color: rgb(6, 0, 0); 
+  
 }
-
+/* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 .top-right {
-  position: absolute; /* Position the text absolutely within the container */
-  top: 8px; /* Distance from the top edge */
-  right: 16px; /* Distance from the right edge */
+  position: absolute;
+  top: 8px; 
+  right: 16px; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.grid-item {
+  padding:10px;
+  border:1px solid purple;
+  background-color:lightblue;
+}
+
+.grid-pics {
+  padding:10px;
+  
 }
 
 
 
+.stack {
+  max-width:50%;
+  max-height:200px;
+  border:solid 1px purple;
+ 
+}
 
 
+cat-caption-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.cat-caption {
+  width: 40%;
+  height: 40%;
+}
+
+.val1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.val2 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.val3 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.val4 {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.val5 {
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.val6 {
+  grid-column: 4 / span 1;
+  grid-row: 2 / span 2;
+}
+
+.val7 {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+}
+
+.val8 {
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.val9 {
+  grid-column: 3 / span 2;
+  grid-row: 4 / span 1;
+}
+.val10 {
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 1;
+}
+.val11 {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+
+@media (min-width: 320px) {
+  .parent {
+    margin: 20px;
+  }
+
+
+@media (min-width: 480px) {
+  .parent {
+    margin: 20px 50px;
+  }
+}
+
+@media (min-width: 600px) {
+  .parent {
+    margin: 50px 150px;
+  }
+}
+
+@media (min-width: 801px) {
+  .parent {
+    margin: 50px 200px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .parent {
+    margin: 50px 300px;
+  }
+}  }
