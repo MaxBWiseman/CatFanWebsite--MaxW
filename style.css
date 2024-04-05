@@ -221,7 +221,7 @@ details[open] > summary {
 .bluebox {
   text-align:center;
   margin:0 auto;
-  background-color:lightblue;
+  background-color:#FFA500;
   border-radius:5px;
   border-color:blue;
   border-style:solid;
@@ -252,6 +252,24 @@ details[open] > summary {
   width:auto;
   padding:5px;
   margin-bottom:20px;
+}
+
+.bumper {
+  margin-left:25%;
+  row-gap:100px;
+}
+
+.cat-caption-container {
+  text-align:center;
+  margin:0 auto;
+  background-color:lightblue;
+  border-radius:20px;
+  border-color:orange;
+  border-style:solid;
+  width:auto;
+  padding:5px;
+  margin-bottom:20px;
+
 }
 
 
