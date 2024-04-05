@@ -147,21 +147,15 @@ h3 {
 .styled-box {
   padding:10px 5px 25px 5px;
   border-radius:8px;
-  width:100%;
+  width:750px;
   text-align:center;
+  margin:0 auto;
   
   background-color:lightblue;
 }
 
-.styled-box2 {
-	padding: 1rem 0;
-	margin-bottom: 80px;
-	background-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	background-attachment:fixed;
-}
+
+
 
 li {
   width:auto;
@@ -223,6 +217,33 @@ details {
 details[open] > summary {
   margin-bottom: 0.5rem;
 }
+
+.bluebox {
+  text-align:center;
+  margin:0 auto;
+  background-color:lightblue;
+  border-radius:5px;
+  border-color:blue;
+  border-style:solid;
+  width:200px;
+  padding:5px;
+  margin-bottom:20px;
+}
+
+.orangebox {
+  text-align:center;
+  margin:0 auto;
+  background-color:orange;
+  border-radius:5px;
+  border-color:rgb(182, 35, 226);
+  border-style:solid;
+  width:200px;
+  padding:5px;
+  margin-bottom:20px;
+}
+
+
+
 
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 .container {
