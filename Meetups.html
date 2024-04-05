@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Meetups</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -31,7 +32,7 @@
         
       
        
-        .map-container {
+        .map-container-meetups {
             width:500px;
             margin:0 auto;
             padding:20px 0;
@@ -40,18 +41,12 @@
             height:auto;
         }
     
-        .map {
+        .map-meetups {
             width:100%;
             display:inline-block;
         }
     
-        .box {
-          width:auto;
-          height:auto;
-          background-color:mediumpurple;
-          border-radius:5px;
-          
-        }
+       
       ul li {
         width:auto;
         height:auto;
@@ -77,7 +72,7 @@
     }
        
 
-        .styled-box2 {
+        .styled-box2-meetups {
             padding: 1rem 0;
             margin-bottom: 80px;
             background-image: url("assets/images/group meetup.jpg");
@@ -87,22 +82,13 @@
             background-attachment:fixed;
         }
 
- .styled-box {
-            padding:10px 5px 25px 5px;
-            border-radius:8px;
-            width:180px
-            
-           
-        
-          }
-
 
  table {
                 width: 100%;
-                border-collapse: collapse;
+                
                 margin: 20px 0;
                 
-                background-color:lightcoral
+               
             }
 
  div {
@@ -125,7 +111,7 @@
     text-align:center;
     font-size: 20px;
         }  
-.bluebox {
+.bluebox-meetups {
     text-align:center;
     margin:0 auto;
     background-color:lightblue;
@@ -137,7 +123,7 @@
     margin-bottom:20px;
 }
 
-.orangebox {
+.orangebox-meetups {
     text-align:center;
     margin:0 auto;
     background-color:orange;
@@ -149,7 +135,7 @@
     margin-bottom:20px;
 }
 
-.redbox {
+.redbox-meetups {
     text-align:center;
     margin:0 auto;
     background-color:maroon;
@@ -182,18 +168,38 @@ footer {
   .special-li {
     display:inline-block;
   }
-    
+
+  th {
+    background-color:orange;
+    border-radius:5px;
+    border-color:purple;
+    border-style:solid;
+    width:200px;
+    padding:5px;
+    margin-bottom:20px;
+
+  }
+  td {
+    background-color:lightblue;
+    border-radius:5px;
+    border-color:rgb(1, 1, 22);
+    border-style:solid;
+    width:200px;
+    padding:5px;
+    margin-bottom:20px;
+
+  }
      
       </style>
 
 
-<div class="styled-box2">
-    <h1 class="orangebox">Welcome to the Meetups Page</h1>
+<div class="styled-box2-meetups">
+    <h1 class="orangebox-meetups">Welcome to the Meetups Page</h1>
 
-    <p class="orangebox">This is where you can find information about upcoming meetups for cat fans!</p>
+    <p class="orangebox-meetups">This is where you can find information about upcoming meetups for cat fans!</p>
     
-        <div class="orangebox">
-            <h2 class="bluebox">Upcoming Meetup</h2>
+        <div class="orangebox-meetups">
+            <h2 class="bluebox-meetups">Upcoming Meetup</h2>
             <p>Date: June 15th</p>
             <p>Time: 2pm</p>
             <p>Location: Exeter Cathedral</p>
@@ -202,13 +208,13 @@ footer {
         </div>
 </div>
 <div>
-    <h3 class="redbox">Competition prize draws can only be entered after
+    <h3 class="redbox-meetups">Competition prize draws can only be entered after
          completetion of the Cat Questionair, which can be found here:
          <a href="#Cat Questionaire.html" target="_self" rel="next">Cat Questionaire</a></h3>
 </div>
 
 <div>
-    <h2 class="bluebox">Meetup Calendar</h2>
+    <h2 class="bluebox-meetups">Meetup Calendar</h2>
     <table>
         <tr>
             <th>Date</th>
@@ -241,16 +247,16 @@ footer {
     </table>
 </div>
 <br>
-<div class="map-container">
-    <div class="map">
+<div class="map-container-meetups">
+    <div class="map-meetups">
         <div>
             <iframe id="video-1" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM3ENhTukbUgReOFD-FPJ-t8&key=AIzaSyAEL_T3r9VBI3O5miWH--92PHYqjN1Y4O0" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 
 
-<div class="orangebox">
-    <h2 class="bluebox">Prizes</h2>
+<div class="orangebox-meetups">
+    <h2 class="bluebox-meetups">Prizes</h2>
     <ul>
         <li>👉Pets at Home Vouchers</li>
         <li>👉<em>Purr-fect</em> Cat Toys</li>
@@ -259,8 +265,8 @@ footer {
     </ul>
 </div>   
 <br>
-<div class="redbox">
-    <h2 class="bluebox">Rules</h2>
+<div class="redbox-meetups">
+    <h2 class="bluebox-meetups">Rules</h2>
     <ul>
         <li>👉No Dogs Allowed</li>
         <li>👉No Littering</li>
