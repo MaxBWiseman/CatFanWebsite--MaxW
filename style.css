@@ -5,6 +5,9 @@
 
 h2 {
   background-color:orange;
+  padding:9px;
+  
+
 
 }
 
@@ -40,10 +43,9 @@ ul {
   
 }
 
-ul li::before {
-  content: '🐈';
+
   
-}
+
 
 legend {
   font-weight:bold;
@@ -164,13 +166,16 @@ h3 {
 li {
   width:auto;
   height:auto;
-  background-color:rgb(7, 161, 33);
+  background:rgb(7, 161, 33);
   border-radius:5px;
   margin-bottom:8px;  
   font-size:large;
   display:inline-block;
+  margin-right:15px;
   
   }
+
+ 
   
 .map-container {
   width:500px;
@@ -186,6 +191,38 @@ li {
   display:inline-block;
 }
 
+.bottomh2 {
+  width:480px;
+  text-align:center;
+  margin:0 auto;
+  
+}
+
+details > summary {
+  list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: '🐈';
+}
+
+details[open] > summary::before {
+  content: '🔽';
+}
+
+details {
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+details[open] > summary {
+  margin-bottom: 0.5rem;
+}
 
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 .container {
