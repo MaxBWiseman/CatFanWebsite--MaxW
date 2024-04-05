@@ -90,8 +90,8 @@ footer {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  height:3%;
-  
+  height:10%;
+  text-align:center;
   bottom:0;
   width:100%;
   right:0;
@@ -102,11 +102,6 @@ p {
   
 }
 
-.border {
-  border-color:purple;
-  border-radius:20px;
-  border-style:solid;
-}
 
 h3 {
 
@@ -132,6 +127,8 @@ h3 {
   border-style:solid;
   border-radius:20px;
   border-color:purple;
+  width:auto;
+  
 }
 
 .border2 {
@@ -144,6 +141,51 @@ h3 {
 
 
 }
+
+.styled-box {
+  padding:10px 5px 25px 5px;
+  border-radius:8px;
+  width:100%;
+  text-align:center;
+  
+  background-color:lightblue;
+}
+
+.styled-box2 {
+	padding: 1rem 0;
+	margin-bottom: 80px;
+	background-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment:fixed;
+}
+
+li {
+  width:auto;
+  height:auto;
+  background-color:rgb(7, 161, 33);
+  border-radius:5px;
+  margin-bottom:8px;  
+  font-size:large;
+  display:inline-block;
+  
+  }
+  
+.map-container {
+  width:500px;
+  margin:0 auto;
+  padding:20px 0;
+  text-align:center;
+  background:lightblue;
+  height:auto;
+}
+
+.map {
+  width:100%;
+  display:inline-block;
+}
+
 
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 .container {
@@ -193,8 +235,8 @@ cat-caption-box {
 }
 
 .cat-caption {
-  width: 40%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
 }
 
 .val1 {
