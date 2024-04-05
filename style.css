@@ -225,7 +225,7 @@ details[open] > summary {
   border-radius:5px;
   border-color:blue;
   border-style:solid;
-  width:200px;
+  width:295px;
   padding:5px;
   margin-bottom:20px;
 }
@@ -237,7 +237,19 @@ details[open] > summary {
   border-radius:5px;
   border-color:rgb(182, 35, 226);
   border-style:solid;
-  width:200px;
+  width:470px;
+  padding:5px;
+  margin-bottom:20px;
+}
+
+.titlebox {
+  text-align:center;
+  margin:0 auto;
+  background-color:lightblue;
+  border-radius:20px;
+  border-color:orange;
+  border-style:solid;
+  width:auto;
   padding:5px;
   margin-bottom:20px;
 }
