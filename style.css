@@ -1,46 +1,28 @@
 * {
-  
+
   font-family: cursive, sans-serif, monospace;
 }
 
 h2 {
-  
-  padding:9px;
-  
+
+  padding: 9px;
+
 
 
 }
 
-
-
-#welcome {
-  background-color:orange;
-  text-align:center;
-}
-
-.orange-highlight {
-  background-color:orange;
-}
-.green-highlight {
-  background-color:green;
-
-}
-.homepage:hover {
-  color:brown;
-
-}
 
 ul {
   list-style-type: none;
-  
+
 }
 
 
-  
+
 
 
 legend {
-  font-weight:bold;
+  font-weight: bold;
   background: orange;
   width: 100%
 }
@@ -48,14 +30,14 @@ legend {
 
 
 #submit {
-  background-color:lightblue;
+  background-color: lightblue;
 }
 
 
 
 fieldset {
-  text-align:center;
-  background-color:lightblue;
+  text-align: center;
+  background-color: lightblue;
 }
 
 .middle-pics {
@@ -64,7 +46,7 @@ fieldset {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  }
+}
 
 
 figcaption {
@@ -72,40 +54,42 @@ figcaption {
 }
 
 body {
-  background-color:lightgrey;
+  background-color: lightgrey;
   max-width: 100%;
   overflow-x: hidden;
-  
+
 
 }
 
 footer {
-  background-color:purple;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  height:10%;
-  text-align:center;
-  bottom:0;
-  width:100%;
-  right:0;
+  background-color: purple;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10%;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  right: 0;
 }
 
+
+
 p {
-  text-align:center;
-  
+  text-align: center;
+
 }
 
 
 h3 {
 
 
-  text-align:center
-
+  text-align: center
 }
+
 .row {
   display: flex;
-  
+
 }
 
 .column {
@@ -114,82 +98,98 @@ h3 {
 }
 
 #id {
-  float:inline-end;
+  float: inline-end;
 }
 
 
 
 
 .styled-box {
-  padding:10px 5px 25px 5px;
-  border-radius:8px;
-  width:750px;
-  text-align:center;
-  margin:0 auto;
-  
-  background-color:lightblue;
+  padding: 10px 5px 25px 5px;
+  border-radius: 8px;
+  width: 750px;
+  text-align: center;
+  margin: 0 auto;
+
+  background-color: lightblue;
 }
 
-
-
-
-li {
-  width:auto;
-  height:auto;
-  
-  border-radius:5px;
-  margin-bottom:8px;  
-  font-size:large;
-  display:inline-block;
-  margin-right:15px;
-  background-color:rgb(7, 161, 33);
-  transition:color 1s ease;
-  
-  }
-
-  li:hover {
-    background-color:orange
-  }
-
-  
- 
-
- 
-  
-.map-container {
-  width:500px;
-  margin:0 auto;
-  padding:20px 0;
-  text-align:center;
-  background:lightblue;
-  height:auto;
-}
-
-.map {
-  width:100%;
-  display:inline-block;
-}
-
-.bottomh2 {
-  width:480px;
-  text-align:center;
-  margin:0 auto;
-  
-}
-
-details > summary {
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  gap: 100px;
   list-style-type: none;
 }
 
-details > summary::-webkit-details-marker {
+ul li {
+  width: auto;
+  height: auto;
+  background-color: greenyellow;
+  border-radius: 5px;
+  font-size: large;
+
+}
+
+
+li {
+  width: auto;
+  height: auto;
+
+  border-radius: 5px;
+  margin-bottom: 8px;
+  font-size: large;
+  display: inline-block;
+  margin-right: 15px;
+  background-color: rgb(7, 161, 33);
+  transition: color 1s ease;
+  margin-top:8px;
+
+}
+
+li:hover {
+  background-color: orange
+}
+
+
+
+
+
+
+.map-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  background: lightblue;
+  height: auto;
+}
+
+.map {
+  width: 100%;
+  display: inline-block;
+}
+
+.bottomh2 {
+  width: 480px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+details>summary {
+  list-style-type: none;
+}
+
+details>summary::-webkit-details-marker {
   display: none;
 }
 
-details > summary::before {
+details>summary::before {
   content: '🐈';
 }
 
-details[open] > summary::before {
+details[open]>summary::before {
   content: '🔽';
 }
 
@@ -197,102 +197,142 @@ details {
   border: 1px solid gray;
   border-radius: 0.2rem;
   padding: 0.5rem;
-  
-  transition:color 1s ease;
+
+  transition: color 1s ease;
 }
 
 details:hover {
-  background-color:orange;
+  background-color: orange;
 }
 
-details[open] > summary {
+details[open]>summary {
   margin-bottom: 0.5rem;
 }
 
 .bluebox {
-  text-align:center;
-  margin:0 auto;
-  background-color:#FFA500;
-  border-radius:25px;
-  border-color:blue;
-  border-style:solid;
-  width:295px;
-  padding:5px;
-  margin-bottom:20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #FFA500;
+  border-radius: 25px;
+  border-color: blue;
+  border-style: solid;
+  width: 295px;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .orangebox {
-  text-align:center;
-  margin:0 auto;
-  background-color:orange;
-  border-radius:5px;
-  border-color:rgb(182, 35, 226);
-  border-style:solid;
-  width:470px;
-  padding:5px;
-  margin-bottom:20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: orange;
+  border-radius: 5px;
+  border-color: rgb(182, 35, 226);
+  border-style: solid;
+  width: 470px;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .titlebox {
-  text-align:center;
-  margin:0 auto;
-  background-color:lightblue;
-  border-radius:20px;
-  border-color:orange;
-  border-style:solid;
-  width:50%;
-  padding:5px;
-  margin-bottom:20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: lightblue;
+  border-radius: 20px;
+  border-color: orange;
+  border-style: solid;
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .titlebox2 {
-  text-align:center;
-  margin:0 auto;
-  background-color:orange;
-  border-radius:5px;
-  border-color:orangered;
-  border-style:solid;
-  width:450px;
-  padding:5px;
-  margin-bottom:20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: orange;
+  border-radius: 5px;
+  border-color: orangered;
+  border-style: solid;
+  width: 450px;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .bumper {
-  margin-left:25%;
-  row-gap:100px;
+  margin-left: 25%;
+  row-gap: 100px;
 }
 
 .cat-caption-container {
-  text-align:center;
-  margin:0 auto;
-  background-color:rgb(171, 123, 199);
-  border-radius:20px;
-  border-color:orange;
-  border-style:solid;
-  width:auto;
-  padding:5px;
-  margin-bottom:20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(171, 123, 199);
+  border-radius: 20px;
+  border-color: orange;
+  border-style: solid;
+  width: auto;
+  padding: 5px;
+  margin-bottom: 20px;
 
 }
 
 footer p {
-  border-radius:50%;
-  border-color:orange;
-  border-style:solid;
-  background-color:orange;
-  text-align:center;
+  border-radius: 50%;
+  border-color: orange;
+  border-style: solid;
+  background-color: orange;
+  text-align: center;
   font-size: 20px;
-      }  
+}
 
 .styledbox2-index {
-   padding: 1rem 0;
-   margin-bottom: 80px;
-   background-image: url("https://www.freewebheaders.com/wp-content/gallery/cats/cats-header-20740-800x200.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center top;
-   background-attachment:fixed;  
+  padding: 1rem 0;
+  margin-bottom: 80px;
+  background-image: url("https://www.freewebheaders.com/wp-content/gallery/cats/cats-header-20740-800x200.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
 
+}
+
+nav {
+  margin: 0 auto;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 25px;
+  border-color: blue;
+  border-style: solid;
+  width: 35%;
+  margin-bottom: 20px;
+
+}
+
+.main-nav {
+  color: blue;
+  font-size: medium;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+a {
+  color: blue;
+  font-size: medium;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: rgb(7, 161, 33);
+  font-size: large;
+  text-decoration: dotted;
+}
+
+#special-a {
+  color: blue;
+  font-size: x-large;
+  text-decoration: none;
+  margin-left:-13px;
+  
 }
 
 
@@ -300,16 +340,17 @@ footer p {
 
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 .container {
-  position: relative; 
-  text-align: center; 
-  color: rgb(6, 0, 0); 
-  
+  position: relative;
+  text-align: center;
+  color: rgb(6, 0, 0);
+
 }
+
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 .top-right {
   position: absolute;
-  top: 8px; 
-  right: 16px; 
+  top: 8px;
+  right: 16px;
 }
 
 .grid-container {
@@ -317,24 +358,25 @@ footer p {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
 .grid-item {
-  padding:10px;
-  border:1px solid purple;
-  background-color:lightblue;
+  padding: 10px;
+  border: 1px solid purple;
+  background-color: lightblue;
 }
 
 .grid-pics {
-  padding:10px;
-  
+  padding: 10px;
+
 }
 
 
 
 .stack {
-  max-width:50%;
-  max-height:200px;
-  border:solid 1px purple;
- 
+  max-width: 50%;
+  max-height: 200px;
+  border: solid 1px purple;
+
 }
 
 
@@ -394,10 +436,12 @@ cat-caption-box {
   grid-column: 3 / span 2;
   grid-row: 4 / span 1;
 }
+
 .val10 {
   grid-column: 4 / span 1;
   grid-row: 4 / span 1;
 }
+
 .val11 {
   grid-column: 1 / span 1;
   grid-row: 4 / span 1;
@@ -409,26 +453,27 @@ cat-caption-box {
   }
 
 
-@media (min-width: 480px) {
-  .parent {
-    margin: 20px 50px;
+  @media (min-width: 480px) {
+    .parent {
+      margin: 20px 50px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .parent {
+      margin: 50px 150px;
+    }
+  }
+
+  @media (min-width: 801px) {
+    .parent {
+      margin: 50px 200px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .parent {
+      margin: 50px 300px;
+    }
   }
 }
-
-@media (min-width: 600px) {
-  .parent {
-    margin: 50px 150px;
-  }
-}
-
-@media (min-width: 801px) {
-  .parent {
-    margin: 50px 200px;
-  }
-}
-
-@media (min-width: 1025px) {
-  .parent {
-    margin: 50px 300px;
-  }
-}  }
