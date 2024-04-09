@@ -66,6 +66,8 @@ body {
 
 }
 
+
+
 main {
 
   flex: 1 0 auto;
@@ -182,6 +184,7 @@ footer p {
   text-align: center;
   background: lightblue;
   height: auto;
+  box-shadow: 0 5px 3px #3a3a3a;
 }
 
 .map {
@@ -287,6 +290,7 @@ details[open]>summary {
   padding: 5px;
   margin-bottom:20px;
   background-image:url("assets/images/cats-header-20730-800x200.jpg");
+  box-shadow: 0 5px 3px #3a3a3a;
   
 }
 
@@ -370,6 +374,7 @@ a:hover {
   text-align: center;
   background: lightblue;
   height: auto;
+  box-shadow: 0 5px 3px #3a3a3a;
 }
 
 .map-meetups {
@@ -507,6 +512,7 @@ td {
   text-align: center;
   background: lightblue;
   height: auto;
+  box-shadow: 0 5px 3px #3a3a3a;
 }
 
 .map-comp {
