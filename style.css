@@ -56,6 +56,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image:url("assets/images/pink-blue-texture-watercolor-artistic-abstract-background-hd-1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+
 
 
 }
@@ -314,7 +320,7 @@ footer p {
 .styledbox2-index {
   padding: 1rem 0;
   margin-bottom: 80px;
-  background-image: url("https://www.freewebheaders.com/wp-content/gallery/cats/cats-header-20740-800x200.jpg");
+  background-image: url("assets/images/439038.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -444,11 +450,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-a:hover {
-  color: orange;
-  font-size: large;
-  text-decoration: dotted;
-}
+
 
 
 
@@ -557,7 +559,7 @@ td {
 .styled-box2-comp {
   padding: 1rem 0;
   margin-bottom: 80px;
-  background-image: url("assets/images/cat competition.jpg");
+  background-image: url("assets/images/5922554.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
