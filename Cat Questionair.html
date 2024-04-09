@@ -7,274 +7,128 @@
 </head>
 
 <body>
-  <style>
-    * {
 
-      font-family: cursive, sans-serif, monospace;
-    }
+  <main>
+    <h1 class="orangebox">Cat Club Competition</h1>
+    <p class="titlebox-comp">Please answer the following questions to the best of your ability.</p>
 
-    p {
 
-      font-size: 20px;
-      text-align: center;
+    <section>
+      <br>
+      <div class="styled-box2-comp">
+        <form method="POST" action="index.html">
+          <fieldset class="comp-fieldset">
 
-    }
+            <legend>
+              Good Luck!
+            </legend>
 
-    body {
-      background-color: lightgrey;
-      max-width: 100%;
-      overflow-x: hidden;
-
-
-
-    }
-
-    fieldset {
-      text-align: center;
-      background-color: lightblue;
-      width: 400px;
-      margin: 0 auto;
-    }
-
-    h1 {
-      background-color: orange;
-      text-align: center;
-    }
-
-    .border {
-      border-style: solid;
-      border-radius: 20px;
-      border-color: purple;
-    }
-
-    .border2 {
-      border-radius: 20%;
-      border-color: orange;
-      border-style: solid;
-      background-color: orange;
-
-
-    }
-
-
-
-    .map-container {
-      width: 500px;
-      margin: 0 auto;
-      padding: 20px 0;
-      text-align: center;
-      background: lightblue;
-      height: auto;
-    }
-
-    .map {
-      width: 100%;
-      display: inline-block;
-    }
-
-    .box {
-      width: auto;
-      height: auto;
-      background-color: mediumpurple;
-      border-radius: 5px;
-
-    }
-
-    
-      
-
-
-    
-
-
-    li {
-      margin-right: 20px;
-    }
-
-    footer {
-      background-color: purple;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      height: 10%;
-      text-align: center;
-      bottom: 0;
-      width: 100%;
-      right: 0;
-    }
-
-    .bluebox {
-      text-align: center;
-      margin: 0 auto;
-      background-color: lightblue;
-      border-radius: 5px;
-      border-color: blue;
-      border-style: solid;
-      width: 295px;
-      padding: 5px;
-      margin-bottom: 20px;
-      margin-top: 20px;
-    }
+            <h3 class="bluebox-comp">What is your favorite cat breed?</h3>
 
-    .orangebox {
-      text-align: center;
-      margin: 0 auto;
-      background-color: orange;
-      border-radius: 5px;
-      border-color: rgb(182, 35, 226);
-      border-style: solid;
-      width: 470px;
-      padding: 5px;
-      margin-bottom: 20px;
-    }
+            <label for="ragdoll">Ragdoll -</label>
+            <input type="radio" name="cat-breeds" id="ragdoll" value="ragdoll">
 
-    .titlebox {
-      text-align: center;
-      margin: 0 auto;
-      background-color: lightblue;
-      border-radius: 20px;
-      border-color: orange;
-      border-style: solid;
-      width: auto;
-      padding: 5px;
-      margin-bottom: 20px;
-    }
 
-    .styled-box2 {
-      padding: 1rem 0;
-      margin-bottom: 80px;
-      background-image: url("assets/images/cat competition.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center top;
-      background-attachment: fixed;
-    }
+            <label for="bengal">Bengal -</label>
+            <input type="radio" name="cat-breeds" id="bengal" value="bengal">
+            <br>
 
-    footer p {
-      border-radius: 50%;
-      border-color: orange;
-      border-style: solid;
-      background-color: orange;
-      text-align: center;
-      font-size: 20px;
-    }
-  </style>
-  <h1 class="orangebox">Cat Club Competition</h1>
-  <p class="titlebox" style="text-align:center;">Please answer the following questions to the best of your ability.</p>
+            <label for="sphynx">Sphynx -</label>
+            <input type="radio" name="cat-breeds" id="sphynx" value="sphynx">
+            <br>
 
+            <label for="tabby">Tabby -</label>
+            <input type="radio" name="cat-breeds" id="tabby" value="tabby">
 
-  <section>
-    <br>
-    <div class="styled-box2">
-      <form method="POST" action="index.html">
-        <fieldset>
+            <label for="persian">Persian -</label>
+            <input type="radio" name="cat-breeds" id="persian" value="persian">
 
-          <legend>
-            Good Luck!
-          </legend>
+            <label for="british-shorthair">British Shorthair -</label>
+            <input type="radio" name="cat-breeds" id="british-shorthair" value="british-shorthair">
 
-          <h3 class="bluebox">What is your favorite cat breed?</h3>
 
-          <label for="ragdoll">Ragdoll -</label>
-          <input type="radio" name="cat-breeds" id="ragdoll" value="ragdoll">
+            <br>
+            <hr>
 
 
-          <label for="bengal">Bengal -</label>
-          <input type="radio" name="cat-breeds" id="bengal" value="bengal">
-          <br>
 
-          <label for="sphynx">Sphynx -</label>
-          <input type="radio" name="cat-breeds" id="sphynx" value="sphynx">
-          <br>
 
-          <label for="tabby">Tabby -</label>
-          <input type="radio" name="cat-breeds" id="tabby" value="tabby">
 
-          <label for="persian">Persian -</label>
-          <input type="radio" name="cat-breeds" id="persian" value="persian">
+            <h3 class="bluebox-comp">How many cat's do you own?</h3>
 
-          <label for="british-shorthair">British Shorthair -</label>
-          <input type="radio" name="cat-breeds" id="british-shorthair" value="british-shorthair">
+            <label for="one-cat">One -</label>
+            <input type="radio" name="cats-owned" id="one-cat" value="one-cat">
+            <br>
 
 
-          <br>
-          <hr>
+            <label for="2-cat">Two -</label>
+            <input type="radio" name="cats-owned" id="two-cat" value="2-cat">
 
 
+            <label for="three-cat">Three -</label>
+            <input type="radio" name="cats-owned" id="three-cat" value="three-cat">
 
 
+            <label for="over-four">Over Four! -</label>
+            <input type="radio" name="cats-owned" id="over-four" value="over-four">
 
-          <h3 class="bluebox">How many cat's do you own?</h3>
 
-          <label for="one-cat">One -</label>
-          <input type="radio" name="cats-owned" id="one-cat" value="one-cat">
-          <br>
+            <br>
+            <hr>
 
+            <h3 class="bluebox-comp">What are your cats names?</h3>
 
-          <label for="2-cat">Two -</label>
-          <input type="radio" name="cats-owned" id="two-cat" value="2-cat">
+            <label for="cat-name">Cat's name:</label>
+            <input type="text" name="cat-name" id="cat-name">
+            <br>
+            <hr>
 
+            <input type="submit" id="submit">
 
-          <label for="three-cat">Three -</label>
-          <input type="radio" name="cats-owned" id="three-cat" value="three-cat">
 
 
-          <label for="over-four">Over Four! -</label>
-          <input type="radio" name="cats-owned" id="over-four" value="over-four">
+        </form>
+        </fieldset>
 
 
-          <br>
-          <hr>
-
-          <h3 class="bluebox">What are your cats names?</h3>
-
-          <label for="cat-name">Cat's name:</label>
-          <input type="text" name="cat-name" id="cat-name">
-          <br>
-          <hr>
-
-          <input type="submit" id="submit">
-
-
-
-      </form>
-      </fieldset>
-
-
-    </div>
-
-  </section>
-
-  <div class="box">
-    <p>Every fortnite at 2pm at <strong>Cathedral Green, Exeter</strong> winners are drawn from the top 3 most popular
-      cat breeds, and the top 3 most popular cat names. Prizes include -
-    </p>
-  </div>
-  <div>
-
-    <ul>
-      <li>👉Pets at Home Vouchers</li>
-      <li>👉<em>Purr-fect</em> Cat Toys</li>
-      <li>👉Cheese Hamper</li>
-      <li>👉Cat Homeware</li>
-    </ul>
-
-  </div>
-
-  <div class="map-container">
-    <div class="map">
-      <div>
-        <iframe id="video-1"
-          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM3ENhTukbUgReOFD-FPJ-t8&key=AIzaSyAEL_T3r9VBI3O5miWH--92PHYqjN1Y4O0"
-          frameborder="0" allowfullscreen></iframe>
       </div>
+
+    </section>
+
+    <div class="box-comp">
+      <p class="comp-text">Every fortnite at 2pm at <strong>Cathedral Green, Exeter</strong> winners are drawn from the
+        top 3 most popular
+        cat breeds, and the top 3 most popular cat names. Prizes include -
+      </p>
+    </div>
+    <div>
+
+      <ul>
+        <li class="comp-li">👉Pets at Home Vouchers</li>
+        <li class="comp-li">👉<em>Purr-fect</em> Cat Toys</li>
+        <li class="comp-li">👉Cheese Hamper</li>
+        <li class="comp-li">👉Cat Homeware</li>
+      </ul>
+
     </div>
 
-    <br>
-    <br>
+    <div class="map-container-comp">
+      <div class="map-comp">
+        <div>
+          <iframe id="video-1"
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM3ENhTukbUgReOFD-FPJ-t8&key=AIzaSyAEL_T3r9VBI3O5miWH--92PHYqjN1Y4O0"
+            frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <br>
+      <br>
 
 
-  </div>
+    </div>
+
+
+  </main>
   <footer>
 
     <br>

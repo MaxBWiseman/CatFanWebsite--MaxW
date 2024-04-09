@@ -7,257 +7,96 @@
 </head>
 
 <body>
-    <style>
-        * {
 
-            font-family: cursive, sans-serif, monospace;
-        }
-
-        body {
-            background-color: lightgrey;
-            max-width: 100%;
-            overflow-x: hidden;
-
-        }
-
-        fieldset {
-            text-align: center;
-            background-color: lightblue;
-        }
+    <main>
 
 
+        <div class="styled-box2-meetups">
+            <h1 class="orangebox-meetups">Welcome to the Meetups Page</h1>
 
+            <p class="orangebox-meetups">This is where you can find information about upcoming meetups for cat fans!</p>
 
-
-
-        .map-container-meetups {
-            width: 500px;
-            margin: 0 auto;
-            padding: 20px 0;
-            text-align: center;
-            background: lightblue;
-            height: auto;
-        }
-
-        .map-meetups {
-            width: 100%;
-            display: inline-block;
-        }
-
-
-        
-
-        li {
-            margin-right: 50px;
-            margin-bottom: 5px;
-        }
-
-
-        .styled-box2-meetups {
-            padding: 1rem 0;
-            margin-bottom: 80px;
-            background-image: url("assets/images/group meetup.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center top;
-            background-attachment: fixed;
-        }
-
-
-        table {
-            width: 100%;
-            margin: 20px 0;
-
-        }
-
-        div {
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        h1 {
-            width: 380px;
-            text-align: center;
-            margin: 0 auto;
-
-        }
-
-        p {
-            border-radius: 50%;
-            border-color: orange;
-            border-style: solid;
-            background-color: orange;
-            text-align: center;
-            font-size: 20px;
-        }
-
-        .bluebox-meetups {
-            text-align: center;
-            margin: 0 auto;
-            background-color: lightblue;
-            border-radius: 5px;
-            border-color: blue;
-            border-style: solid;
-            width: 200px;
-            padding: 5px;
-            margin-bottom: 20px;
-        }
-
-        .orangebox-meetups {
-            text-align: center;
-            margin: 0 auto;
-            background-color: orange;
-            border-radius: 5px;
-            border-color: rgb(182, 35, 226);
-            border-style: solid;
-            width: 350px;
-            padding: 5px;
-            margin-bottom: 20px;
-        }
-
-        .redbox-meetups {
-            text-align: center;
-            margin: 0 auto;
-            background-color: maroon;
-            border-radius: 5px;
-            border-color: rgb(208, 228, 32);
-            border-style: solid;
-            width: 350px;
-            padding: 5px;
-            margin-bottom: 20px;
-        }
-
-        a:hover {
-            color: orange;
-            font-size: large;
-            text-decoration: dotted;
-        }
-
-        footer {
-            background-color: purple;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 10%;
-            text-align: center;
-            bottom: 0;
-            width: 100%;
-            right: 0;
-        }
-
-        .special-li {
-            display: inline-block;
-        }
-
-        th {
-            background-color: orange;
-            border-radius: 5px;
-            border-color: purple;
-            border-style: solid;
-            width: 200px;
-            padding: 5px;
-            margin-bottom: 20px;
-
-        }
-
-        td {
-            background-color: lightblue;
-            border-radius: 5px;
-            border-color: rgb(1, 1, 22);
-            border-style: solid;
-            width: 200px;
-            padding: 5px;
-            margin-bottom: 20px;
-
-        }
-    </style>
-
-
-    <div class="styled-box2-meetups">
-        <h1 class="orangebox-meetups">Welcome to the Meetups Page</h1>
-
-        <p class="orangebox-meetups">This is where you can find information about upcoming meetups for cat fans!</p>
-
-        <div class="orangebox-meetups">
-            <h2 class="bluebox-meetups">Upcoming Meetup</h2>
-            <p>Date: June 15th</p>
-            <p>Time: 2pm</p>
-            <p>Location: Exeter Cathedral</p>
-            <p>Meeting Point: Entrance</p>
-            <p>Activities: Coffee and Chat</p>
-        </div>
-    </div>
-    <div>
-        <h3 class="redbox-meetups">Competition prize draws can only be entered after
-            completetion of the Cat Questionair, which can be found here:
-            <a href="#Cat Questionaire.html" target="_self" rel="next">Cat Questionaire</a></h3>
-    </div>
-
-    <div>
-        <h2 class="bluebox-meetups">Meetup Calendar</h2>
-        <table>
-            <tr>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Location</th>
-                <th>Meeting Point</th>
-                <th>Activities</th>
-            </tr>
-            <tr>
-                <td>July 15th</td>
-                <td>2pm</td>
-                <td>Exeter Cathedral</td>
-                <td>Entrance</td>
-                <td>Coffee and Chat</td>
-            </tr>
-            <tr>
-                <td>August 22nd</td>
-                <td>3pm</td>
-                <td>Central Park</td>
-                <td>Main Entrance</td>
-                <td>Games and Picnic</td>
-            </tr>
-            <tr>
-                <td>September 29th</td>
-                <td>4pm</td>
-                <td>Beach</td>
-                <td>Beach Bar</td>
-                <td>Beach Volleyball</td>
-            </tr>
-        </table>
-    </div>
-    <br>
-    <div class="map-container-meetups">
-        <div class="map-meetups">
-            <div>
-                <iframe id="video-1"
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM3ENhTukbUgReOFD-FPJ-t8&key=AIzaSyAEL_T3r9VBI3O5miWH--92PHYqjN1Y4O0"
-                    frameborder="0" allowfullscreen></iframe>
+            <div class="orangebox-meetups">
+                <h2 class="bluebox-meetups">Upcoming Meetup</h2>
+                <p>Date: June 15th</p>
+                <p>Time: 2pm</p>
+                <p>Location: Exeter Cathedral</p>
+                <p>Meeting Point: Entrance</p>
+                <p>Activities: Coffee and Chat</p>
             </div>
         </div>
+        <div>
+            <h3 class="redbox-meetups">Competition prize draws can only be entered after
+                completetion of the Cat Questionair, which can be found here:
+                <a href="#Cat Questionaire.html" target="_self" rel="next">Cat Questionaire</a></h3>
+        </div>
 
-
-        <div class="orangebox-meetups">
-            <h2 class="bluebox-meetups">Prizes</h2>
-            <ul>
-                <li>👉Pets at Home Vouchers</li>
-                <li>👉<em>Purr-fect</em> Cat Toys</li>
-                <li>👉Cheese Hamper</li>
-                <li>👉Cat Homeware</li>
-            </ul>
+        <div>
+            <h2 class="bluebox-meetups">Meetup Calendar</h2>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Meeting Point</th>
+                    <th>Activities</th>
+                </tr>
+                <tr>
+                    <td>July 15th</td>
+                    <td>2pm</td>
+                    <td>Exeter Cathedral</td>
+                    <td>Entrance</td>
+                    <td>Coffee and Chat</td>
+                </tr>
+                <tr>
+                    <td>August 22nd</td>
+                    <td>3pm</td>
+                    <td>Central Park</td>
+                    <td>Main Entrance</td>
+                    <td>Games and Picnic</td>
+                </tr>
+                <tr>
+                    <td>September 29th</td>
+                    <td>4pm</td>
+                    <td>Beach</td>
+                    <td>Beach Bar</td>
+                    <td>Beach Volleyball</td>
+                </tr>
+            </table>
         </div>
         <br>
-        <div class="redbox-meetups">
-            <h2 class="bluebox-meetups">Rules</h2>
-            <ul>
-                <li>👉No Dogs Allowed</li>
-                <li>👉No Littering</li>
-                <li>👉No Smoking</li>
-                <li>👉No Alcohol</li>
-            </ul>
-        </div>
+        <div class="map-container-meetups">
+            <div class="map-meetups">
+                <div>
+                    <iframe id="video-1"
+                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM3ENhTukbUgReOFD-FPJ-t8&key=AIzaSyAEL_T3r9VBI3O5miWH--92PHYqjN1Y4O0"
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
 
-    </div>
+
+            <div class="orangebox-meetups">
+                <h2 class="bluebox-meetups">Prizes</h2>
+                <ul>
+                    <li>👉Pets at Home Vouchers</li>
+                    <li>👉<em>Purr-fect</em> Cat Toys</li>
+                    <li>👉Cheese Hamper</li>
+                    <li>👉Cat Homeware</li>
+                </ul>
+            </div>
+            <br>
+            <div class="redbox-meetups">
+                <h2 class="bluebox-meetups">Rules</h2>
+                <ul>
+                    <li>👉No Dogs Allowed</li>
+                    <li>👉No Littering</li>
+                    <li>👉No Smoking</li>
+                    <li>👉No Alcohol</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
     <footer>
 
         <br>
