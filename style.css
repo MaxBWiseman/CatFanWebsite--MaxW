@@ -17,10 +17,6 @@ ul {
 
 }
 
-
-
-
-
 legend {
   font-weight: bold;
   background: orange;
@@ -276,14 +272,16 @@ details[open]>summary {
 
 .pageheader {
   text-align: center;
-  margin: 0 auto;
-  background-color: orange;
-  border-radius: 25px;
+  margin: 0 auto;  
+  border-radius: 50px;
   border-color: orangered;
   border-style: solid;
-  width: 800px;
+  width: 780px;
+  height:130px;
   padding: 5px;
-  margin-bottom: 20px;
+  margin-bottom:20px;
+  background-image:url("assets/images/cats-header-20730-800x200.jpg");
+  
 }
 
 .bumper {
