@@ -1,3 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Indie+Flower&family=Rowdies:wght@300;400;700&display=swap');
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rowdies-light {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rowdies-bold {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
 * {
 
   font-family: cursive, sans-serif, monospace;
@@ -172,10 +207,6 @@ footer p {
 
   font-size: 25px;
 }
-
-
-
-
 
 .map-container {
   width: 500px;
