@@ -339,7 +339,7 @@ details[open]>summary {
   border-radius: 20px;
   border-color: orange;
   border-style: solid;
-  width: auto;
+  width: 850px;
   padding: 5px;
   margin-bottom: 20px;
 
@@ -360,13 +360,15 @@ footer p {
   background-image: url("assets/images/439038.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   background-attachment: fixed;
+  
 
 }
 
 nav {
   margin: 0 auto;
+  
 
 
 }
@@ -610,7 +612,7 @@ td {
 
 
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
-.container {
+.cat-caption-container {
   position: relative;
   text-align: center;
   color: rgb(6, 0, 0);
@@ -618,11 +620,7 @@ td {
 }
 
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
+
 
 .grid-container {
   display: grid;
@@ -640,15 +638,6 @@ td {
 
 .grid-pics {
   padding: 10px;
-
-}
-
-
-
-.stack {
-  max-width: 50%;
-  max-height: 200px;
-  border: solid 1px purple;
 
 }
 
@@ -720,33 +709,57 @@ cat-caption-box {
   grid-row: 4 / span 1;
 }
 
+
+
 @media (min-width: 320px) {
-  .parent {
-    margin: 20px;
+  .cat-caption-box {
+    margin: 20px 300px 100px 10px;
   }
+  main {
+    margin: 2px -110px 10px ;
+    
+   
+  }
+  .styledbox2-index {
+    margin: 2px -110px
+   
+  }
+
+}
 
 
   @media (min-width: 480px) {
-    .parent {
+    .cat-caption-box {
       margin: 20px 50px;
     }
+   
   }
 
   @media (min-width: 600px) {
-    .parent {
+    .cat-caption-box {
       margin: 50px 150px;
     }
+    
   }
 
   @media (min-width: 801px) {
-    .parent {
+    .cat-caption-box {
       margin: 50px 200px;
     }
+   
   }
 
   @media (min-width: 1025px) {
-    .parent {
-      margin: 50px 300px;
+    .cat-caption-box {
+      margin: 50px 30px;
     }
+    main {
+      margin:0 auto;
+    }
+    .styledbox2-index {
+      margin: 0 auto;
+    }
+
+  
+   
   }
-}
