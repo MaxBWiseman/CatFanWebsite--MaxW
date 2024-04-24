@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Indie+Flower&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&family=Indie+Flower&family=Rowdies:wght@300;400;700&display=swap');
 
 @media (min-width: 320px) {
   
@@ -91,6 +91,17 @@
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
   font-style: normal;
+  
+}
+
+.honk {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
 }
 
 
@@ -376,7 +387,90 @@ details[open]>summary {
   
 }
 
+.pageheader2 {
+  text-align: center;
+  margin: 0 auto;  
+  border-radius: 50px;
+  border-color: orangered;
+  border-style: solid;
+  width: 550px;
+  height:auto;
+  padding: 5px;
+  margin-bottom:20px;
+  background-image:url("assets/images/cats-header-20725-800x200.jpg");
+  box-shadow: 0 5px 3px #3a3a3a;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  
+}
 
+.pageheader3 {
+  text-align: center;
+  margin: 0 auto;  
+  border-radius: 50px;
+  border-color: blue;
+  border-style: solid;
+  width: 400px;
+  height:auto;
+  padding: 5px;
+  margin-bottom:20px;
+  background-image:url("assets/images/kenyan-cat-web-header-image.jpg");
+  box-shadow: 0 5px 3px #3a3a3a;
+  
+}
+
+.pageheader4 {
+  text-align: center;
+  margin: 0 auto;  
+  border-radius: 50px;
+  border-color: lightgreen;
+  border-style: solid;
+  width: 300px;
+  height:auto;
+  padding: 5px;
+  margin-bottom:20px;
+  background-image:url("assets/images/colorful-tie-dye-background-vector-design-hd.jpg");
+  box-shadow: 0 5px 3px #3a3a3a;
+  background-position:center;
+  
+}
+
+.pageheader5 {
+  text-align: center;
+  margin: 0 auto;  
+  border-radius: 50px;
+  border-color: lightgreen;
+  border-style: solid;
+  width: 800px;
+  height:auto;
+  padding: 5px;
+  margin-bottom:20px;
+  background-image:url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
+  box-shadow: 0 5px 3px #3a3a3a;
+  background-position:center;
+  display:contents;
+ 
+  
+  
+}
+
+.pageheader6 {
+  text-align: center;
+  margin: 0 auto;  
+  border-radius: 50px;
+  border-color: orangered;
+  border-style: solid;
+  width: 550px;
+  height:auto;
+  padding: 5px;
+  margin-bottom:20px;
+  background-image:url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
+  box-shadow: 0 5px 3px #3a3a3a;
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
 
 .cat-caption-container {
   text-align: center;
@@ -388,6 +482,11 @@ details[open]>summary {
   width: 850px;
   padding: 5px;
   margin-bottom: 20px;
+  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+
 
 }
 
@@ -448,6 +547,10 @@ a:hover {
   background: lightblue;
   height: auto;
   box-shadow: 0 5px 3px #3a3a3a;
+  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 .map-meetups {
@@ -573,6 +676,8 @@ td {
   background-color: lightblue;
   width: 400px;
   margin: 0 auto;
+  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position:center;
 }
 
 
@@ -593,13 +698,7 @@ td {
   display: inline-block;
 }
 
-.box-comp {
-  width: auto;
-  height: auto;
-  background-color: mediumpurple;
-  border-radius: 5px;
 
-}
 
 
 
@@ -643,6 +742,22 @@ td {
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
+  width:1000px;
+}
+
+.trivia {
+  background-image:url(assets/images/colorful-shine-glare-abstract-background-full-hd-1920x1080.jpg);
+  background-position:center;
+}
+
+.news {
+  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position:center;
+}
+
+.joinup {
+  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position:center;
 }
 
 
@@ -650,14 +765,8 @@ td {
 
 
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
-.cat-caption-container {
-  position: relative;
-  text-align: center;
-  color: rgb(6, 0, 0);
 
-}
 
-/* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 
 
 .grid-container {
@@ -670,8 +779,7 @@ td {
   padding: 10px;
   border: 1px solid purple;
   background-color: lightblue;
-  background-image:url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
-  background-position:center;
+  
 }
 .grid-container2 {
   display: grid;
@@ -751,6 +859,9 @@ cat-caption-box {
   grid-column: 1 / span 1;
   grid-row: 4 / span 1;
 }
+
+/* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+
 
 
 
