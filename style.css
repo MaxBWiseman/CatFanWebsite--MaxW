@@ -1,39 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&family=Indie+Flower&family=Rowdies:wght@300;400;700&display=swap');
 
-@media (min-width: 320px) {
-  
-  .cat-caption-container {
-    margin: 10px 50px 10px;
-  }
-  
-  .cat-caption-box {
-    margin: auto;
-  }
-  main {
-    margin:0 auto;
-    overflow-x:hidden;
-  
-  }
-  .styledbox2-index {
-    margin: -10px 16.6px 10px 9px
-   
-  }
 
-  
-
-  footer {
-    width:500px;
-    margin-left:50%;
-  }
-
-  .DesktopFooter {
-    display: none;
-  }
-
-  
-
-}
 
 @media (min-width: 1025px) {
   .cat-caption-box {
@@ -193,7 +161,40 @@ footer > p {
   background-color: orange;
   text-align: center;
   font-size: 20px;
+  background-image:url(assets/images/colorful-geometric-shapes-vector-background-pattern.jpg);
+  background-position:center;
+  background-size:cover;
 
+}
+
+.news-container1 {
+  width:400px;
+  height:175px;
+  border-radius:25px;
+  background-image:url(assets/images/_133152130_c0180550-723e-48dc-bfe7-24bf939bd272.jpg.webp);
+  background-position:center;
+  background-size:cover;
+  margin-left:70px;
+}
+
+.news-container2 {
+  width:400px;
+  height:175px;
+  border-radius:25px;
+  background-image:url(assets/images/_133031884_amber-stitches-cat-976-family.jpg.webp);
+  background-position:center;
+  background-size:cover;
+  margin-left:70px;
+}
+
+.news-container3 {
+  width:400px;
+  height:175px;
+  border-radius:25px;
+  background-image:url(assets/images/7719ce60-f80c-11ee-8413-8d1fbc0364d9.jpg.webp);
+  background-position:center;
+  background-size:cover;
+  margin-left:70px;
 }
 
 
@@ -805,63 +806,37 @@ cat-caption-box {
   height: 35%;
 }
 
-.val1 {
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
-}
-
-.val2 {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
-}
-
-.val3 {
-  grid-column: 3 / span 1;
-  grid-row: 1 / span 2;
-}
-
-.val4 {
-  grid-column: 4 / span 1;
-  grid-row: 1 / span 1;
-}
-
-.val5 {
-  grid-column: 1 / span 2;
-  grid-row: 2 / span 1;
-}
-
-.val6 {
-  grid-column: 4 / span 1;
-  grid-row: 2 / span 2;
-}
-
-.val7 {
-  grid-column: 1 / span 2;
-  grid-row: 3 / span 2;
-}
-
-.val8 {
-  grid-column: 3 / span 1;
-  grid-row: 3 / span 1;
-}
-
-.val9 {
-  grid-column: 3 / span 2;
-  grid-row: 4 / span 1;
-}
-
-.val10 {
-  grid-column: 4 / span 1;
-  grid-row: 4 / span 1;
-}
-
-.val11 {
-  grid-column: 1 / span 1;
-  grid-row: 4 / span 1;
-}
 
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 
+@media (min-width: 320px) {
+
+  body {
+    display:flex;
+    
+  }
+
+  .styledbox2-index {
+    width:360px;
+  }
+
+  .pageheader {
+    width:300px;
+    background-position:right
+  }
+
+  .titlebox2 {
+    width:200px;
+    display:contents;
+  }
+
+  .DesktopFooter {
+    display: none;
+  }
+
+  
+
+}
 
 
 
