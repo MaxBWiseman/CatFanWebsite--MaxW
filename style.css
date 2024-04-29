@@ -3,34 +3,6 @@
 
 
 
-@media (min-width: 1025px) {
-  .cat-caption-box {
-    margin: 50px 30px;
-  }
-  main {
-    margin:0 auto;
-  }
-  .styledbox2-index {
-    margin: 0 auto;
-  }
-
-  .DesktopFooter {
-    display: contents;
-  }
-
-  footer {
-    width: 600px;
-    margin: 0 auto;
-    text-align:center;
-  }
-
-  
-
-
- 
-}
-
-
 .bungee-spice-regular {
   font-family: "Bungee Spice", sans-serif;
   font-weight: 400;
@@ -809,7 +781,7 @@ cat-caption-box {
 
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 
-@media (min-width: 320px) {
+@media (max-width: 480px) {
 
   body {
     display:flex;
@@ -825,6 +797,11 @@ cat-caption-box {
     background-position:right
   }
 
+  .pageheader2 {
+    width:300px;
+    height:150px;
+  }
+
   .titlebox2 {
     width:200px;
     display:contents;
@@ -834,31 +811,48 @@ cat-caption-box {
     display: none;
   }
 
+  .mobile-remove {
+    display: none;
+  
+  }
+
+  .grid-container {
+    display: inline;
+  }
+
+  .pageheader6 {
+    width:320px;
+  }
+
   
 
 }
 
 
-
- @media (min-width: 480px) {
-    .cat-caption-box {
-      margin: 20px 50px;
-    }
-   
+@media (min-width: 1025px) {
+  .cat-caption-box {
+    margin: 50px 30px;
+  }
+  main {
+    margin:0 auto;
+  }
+  .styledbox2-index {
+    margin: 0 auto;
+    width:auto;
   }
 
-  @media (min-width: 600px) {
-    .cat-caption-box {
-      margin: 50px 150px;
-    }
-    
+  .DesktopFooter {
+    display: contents;
   }
 
-  @media (min-width: 801px) {
-    .cat-caption-box {
-      margin: 5px 0px 5px 0px;;
-    }
-   
+  footer {
+    width: 600px;
+    margin: 0 auto;
+    text-align:center;
   }
 
+  
 
+
+ 
+}
