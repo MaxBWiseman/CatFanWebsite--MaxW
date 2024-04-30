@@ -60,10 +60,6 @@ h2 {
 }
 
 
-ul {
-  list-style-type: none;
-
-}
 
 legend {
   font-weight: bold;
@@ -206,7 +202,7 @@ h3 {
 ul {
   display: table;
   margin: 0 auto;
-  text-align: left;
+  text-align: middle;
   gap: 100px;
   list-style-type: none;
 }
@@ -476,6 +472,7 @@ details[open]>summary {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  width:110%;
   
 
 }
@@ -492,6 +489,7 @@ nav {
   font-size: medium;
   text-decoration: none;
   margin-left: 15px;
+  font-size:25px;
 }
 
 a {
@@ -513,6 +511,10 @@ a:hover {
   text-decoration: none;
   margin-left: -13px;
 
+}
+
+#video-1 {
+  padding:1rem;
 }
 
 
@@ -612,6 +614,7 @@ th {
   width: 200px;
   padding: 5px;
   margin-bottom: 20px;
+  font-size: x-large;
 
 }
 
@@ -623,6 +626,7 @@ td {
   width: 200px;
   padding: 5px;
   margin-bottom: 20px;
+  font-size: x-large;
 
 }
 
@@ -714,6 +718,11 @@ td {
   background-position:center;
 }
 
+.important-info {
+  border-radius:15px;
+  background-color:lightblue;
+}
+
 
 
 
@@ -760,7 +769,12 @@ cat-caption-box {
 }
 
 
-/* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+/* end of code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+@media (max-width: 375px) and (max-height: 667px) {
+  .styledbox2-index {
+    margin-right: -16px;
+  }
+}
 
 @media (max-width: 480px) {
 
@@ -774,12 +788,13 @@ cat-caption-box {
   }
 
   .pageheader {
-    width:300px;
-    background-position:right
+    width:330px;
+    background-position:right;
+    height:142px;
   }
 
   .pageheader2 {
-    width:300px;
+    width:90%;
     
   }
 
@@ -841,6 +856,18 @@ cat-caption-box {
 
   .map-container {
     width: 310px;
+  }
+
+  .grid-item > p {
+    text-align:center;
+  }
+
+  footer > p {
+    font-size:70%;
+  }
+
+  ul {
+    text-align:center;
   }
 
   
