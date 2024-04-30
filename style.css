@@ -220,12 +220,12 @@ ul li {
 li {
   width: auto;
   height: auto;
-
-  border-radius: 5px;
+  margin-left: -16px;
+  border-radius: 25px;
   margin-bottom: 8px;
   font-size: large;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 20px;
   background-color: rgb(7, 161, 33);
   transition: color 1s ease;
   margin-top: 8px;
@@ -496,6 +496,7 @@ a {
   color: blue;
   font-size: medium;
   text-decoration: none;
+  font-size:x-large;
 
 }
 
@@ -528,8 +529,8 @@ a:hover {
 
 
 
-li {
-  margin-right: 50px;
+footer > li {
+  margin-right: 9px;
   margin-bottom: 5px;
 }
 
@@ -784,7 +785,8 @@ cat-caption-box {
   }
 
   .styledbox2-index {
-    width:360px;
+    width:110%;
+    margin-left:-10px
   }
 
   .pageheader {
@@ -829,7 +831,7 @@ cat-caption-box {
   }
 
   .pageheader6 {
-    width:320px;
+    width:350px;
   }
 
   .news-container1 {
@@ -855,7 +857,7 @@ cat-caption-box {
   }
 
   .map-container {
-    width: 310px;
+    width: 330px;
   }
 
   .grid-item > p {
