@@ -506,7 +506,7 @@ a:hover {
   
 }
 
-#special-a {
+#special-a:hover {
   color: green;
   font-size: x-large;
   text-decoration: none;
@@ -790,8 +790,8 @@ cat-caption-box {
   }
 
   .styledbox2-index {
-    width:100%;
-    margin-left:-8px;
+    width:110%;
+    margin-left:-27px;
     padding:0.5rem;
   }
 
@@ -807,7 +807,7 @@ cat-caption-box {
   }
 
   .pageheader3 {
-    width:75%;
+    width:85%;
   }
 
   .pageheader4 {
@@ -900,6 +900,14 @@ cat-caption-box {
 
   .redbox-meetups {
     width:75%;
+  }
+
+  .styled-box2-comp {
+    width:100%;
+  }
+
+  .comp-fieldset {
+    width: 85%;
   }
 
  
