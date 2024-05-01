@@ -434,7 +434,7 @@ details[open]>summary {
   border-radius: 50px;
   border-color: orangered;
   border-style: solid;
-  width: 550px;
+  width: 450px;
   height:auto;
   padding: 5px;
   margin-bottom:20px;
@@ -777,8 +777,15 @@ cat-caption-box {
 @media screen and (max-width: 480px) {
 
 
+  html {
+    width:0 auto;
+    overflow-x:hidden;
+  }
+  
   body {
-    display:flex;
+    width:auto;
+    margin:0 auto;
+    
     
   }
 
@@ -791,15 +798,21 @@ cat-caption-box {
   }
 
   .styledbox2-index {
-    width:110%;
-    margin-left:-27px;
-    padding:0.5rem;
+    
+    width:0 auto;
+    
+    
+   
+    
   }
 
   .pageheader {
-    width:330px;
+    width:75%;
     background-position:right;
     height:142px;
+    padding:0.5rem;
+    margin-left:23px;
+    
   }
 
   .pageheader2 {
@@ -813,7 +826,10 @@ cat-caption-box {
 
   .pageheader4 {
     width:75%;
+    margin-left:23px;
   }
+
+ 
 
   .titlebox {
     width:320px;
@@ -846,7 +862,9 @@ cat-caption-box {
   }
 
   .pageheader6 {
-    width:330px;
+    width:75%;
+    margin-right:19px;
+    margin-left:24px;
   }
 
   .news-container1 {
@@ -927,7 +945,7 @@ cat-caption-box {
     margin: 50px 30px;
   }
   main {
-    margin:0 auto;
+    width:100%;
   }
   .styledbox2-index {
     margin: 0 auto;
