@@ -502,15 +502,15 @@ a {
 
 a:hover {
   color: rgb(7, 161, 33);
-  font-size: large;
-  text-decoration: dotted;
+  font-size: x-large;
+  
 }
 
 #special-a {
-  color: blue;
+  color: green;
   font-size: x-large;
   text-decoration: none;
-  margin-left: -13px;
+  
 
 }
 
@@ -771,17 +771,22 @@ cat-caption-box {
 
 
 /* end of code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
-@media (max-width: 375px) and (max-height: 667px) {
-  .styledbox2-index {
-    margin-right: -16px;
-  }
-}
 
-@media (max-width: 480px) {
+
+@media screen and (max-width: 480px) {
+
 
   body {
     display:flex;
     
+  }
+
+  td {
+    font-size:x-small;
+  }
+
+  th {
+    font-size:x-small;
   }
 
   .styledbox2-index {
@@ -799,6 +804,14 @@ cat-caption-box {
   .pageheader2 {
     width:90%;
     
+  }
+
+  .pageheader3 {
+    width:75%;
+  }
+
+  .pageheader4 {
+    width:75%;
   }
 
   .titlebox {
@@ -835,7 +848,17 @@ cat-caption-box {
     width:330px;
   }
 
-  .news-container {
+  .news-container1 {
+    margin-left:-1px;
+    width:340px;
+  }
+
+  .news-container2 {
+    margin-left:-1px;
+    width:340px;
+  }
+
+  .news-container3 {
     margin-left:-1px;
     width:340px;
   }
@@ -875,12 +898,17 @@ cat-caption-box {
     
   }
 
+  .redbox-meetups {
+    width:75%;
+  }
+
+ 
   
 
 }
 
 
-@media (min-width: 1025px) {
+@media screen and (min-width: 768px) {
   .cat-caption-box {
     margin: 50px 30px;
   }
