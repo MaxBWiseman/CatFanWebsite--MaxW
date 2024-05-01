@@ -712,6 +712,7 @@ td {
 .news {
   background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
   background-position:center;
+  width:0 auto;
 }
 
 .joinup {
@@ -850,17 +851,17 @@ cat-caption-box {
 
   .news-container1 {
     margin-left:-1px;
-    width:340px;
+    width:auto;
   }
 
   .news-container2 {
     margin-left:-1px;
-    width:340px;
+    width:auto;
   }
 
   .news-container3 {
     margin-left:-1px;
-    width:340px;
+    width:auto;
   }
   
 
