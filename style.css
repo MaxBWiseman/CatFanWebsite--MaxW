@@ -701,7 +701,7 @@ td {
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
-  width:1000px;
+  width:auto;
 }
 
 .trivia {
@@ -771,7 +771,25 @@ cat-caption-box {
 }
 
 
-/* end of code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+/* END of code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+
+/* code reasurched from https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1*/
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.multicolortext {
+  background-image: linear-gradient(45deg, red, blue, green);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+/* END of code reasurched from https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1 */
 
 
 @media screen and (max-width: 480px) {
@@ -802,9 +820,9 @@ cat-caption-box {
   .pageheader {
     width:75%;
     background-position:right;
-    height:142px;
+    height:160px;
     padding:0.5rem;
-    margin-left:23px;
+    margin-left:30px;
     
   }
 
@@ -819,7 +837,7 @@ cat-caption-box {
 
   .pageheader4 {
     width:75%;
-    margin-left:23px;
+    
   }
 
  
@@ -927,6 +945,18 @@ cat-caption-box {
     margin-left:55px;
   }
 
+  #signup {
+    margin-right:9%;
+  }
+
+  .main-title {
+    font-size:270%
+  }
+
+  .main-nav {
+    font-size:130%;
+  }
+
  
   
 
@@ -957,6 +987,15 @@ cat-caption-box {
 
   #mobile-footer {
     display: none;
+  }
+
+  .main-title {
+    font-size:300%;
+    display:contents;
+  }
+
+  .titlebox2 {
+    margin-top:20px;
   }
 
   
