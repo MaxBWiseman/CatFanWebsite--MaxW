@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&family=Indie+Flower&family=Rowdies:wght@300;400;700&display=swap');
 
 
@@ -31,7 +30,7 @@
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
   font-style: normal;
-  
+
 }
 
 .honk {
@@ -40,8 +39,8 @@
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
-    "MORF" 15,
-    "SHLN" 50;
+    "MORF"15,
+    "SHLN"50;
 }
 
 
@@ -86,7 +85,7 @@ fieldset {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  height:200px;
+  height: 200px;
 }
 
 
@@ -101,7 +100,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image:url("assets/images/pink-blue-texture-watercolor-artistic-abstract-background-hd-1920x1080.jpg");
+  background-image: url("assets/images/pink-blue-texture-watercolor-artistic-abstract-background-hd-1920x1080.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -122,47 +121,47 @@ main {
 
 
 
-footer > p {
+footer>p {
   border-radius: 50%;
   border-color: orange;
   border-style: solid;
   background-color: orange;
   text-align: center;
   font-size: 20px;
-  background-image:url(assets/images/colorful-geometric-shapes-vector-background-pattern.jpg);
-  background-position:center;
-  background-size:cover;
+  background-image: url(assets/images/colorful-geometric-shapes-vector-background-pattern.jpg);
+  background-position: center;
+  background-size: cover;
 
 }
 
 .news-container1 {
-  width:400px;
-  height:175px;
-  border-radius:25px;
-  background-image:url(assets/images/_133152130_c0180550-723e-48dc-bfe7-24bf939bd272.jpg.webp);
-  background-position:center;
-  background-size:cover;
-  margin-left:70px;
+  width: 400px;
+  height: 175px;
+  border-radius: 25px;
+  background-image: url(assets/images/_133152130_c0180550-723e-48dc-bfe7-24bf939bd272.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  margin-left: 70px;
 }
 
 .news-container2 {
-  width:400px;
-  height:175px;
-  border-radius:25px;
-  background-image:url(assets/images/_133031884_amber-stitches-cat-976-family.jpg.webp);
-  background-position:center;
-  background-size:cover;
-  margin-left:70px;
+  width: 400px;
+  height: 175px;
+  border-radius: 25px;
+  background-image: url(assets/images/_133031884_amber-stitches-cat-976-family.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  margin-left: 70px;
 }
 
 .news-container3 {
-  width:400px;
-  height:175px;
-  border-radius:25px;
-  background-image:url(assets/images/7719ce60-f80c-11ee-8413-8d1fbc0364d9.jpg.webp);
-  background-position:center;
-  background-size:cover;
-  margin-left:70px;
+  width: 400px;
+  height: 175px;
+  border-radius: 25px;
+  background-image: url(assets/images/7719ce60-f80c-11ee-8413-8d1fbc0364d9.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  margin-left: 70px;
 }
 
 
@@ -245,10 +244,10 @@ li:hover {
   background: lightblue;
   height: auto;
   box-shadow: 0 5px 3px #3a3a3a;
-  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .map {
@@ -317,8 +316,8 @@ details[open]>summary {
   width: 470px;
   padding: 5px;
   margin-bottom: 20px;
-  background-image:url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
-  background-position:center;
+  background-image: url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
+  background-position: center;
 }
 
 .titlebox {
@@ -347,102 +346,102 @@ details[open]>summary {
 
 .pageheader {
   text-align: center;
-  margin: 0 auto;  
+  margin: 0 auto;
   border-radius: 50px;
   border-color: orangered;
   border-style: solid;
   width: 780px;
-  height:130px;
+  height: 130px;
   padding: 5px;
-  margin-bottom:20px;
-  background-image:url("assets/images/cats-header-20730-800x200.jpg");
+  margin-bottom: 20px;
+  background-image: url("assets/images/cats-header-20730-800x200.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
-  
+
 }
 
 .pageheader2 {
   text-align: center;
-  margin: 0 auto;  
+  margin: 0 auto;
   border-radius: 50px;
   border-color: orangered;
   border-style: solid;
   width: 550px;
-  height:auto;
+  height: auto;
   padding: 5px;
-  margin-bottom:20px;
-  background-image:url("assets/images/cats-header-20725-800x200.jpg");
+  margin-bottom: 20px;
+  background-image: url("assets/images/cats-header-20725-800x200.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  
+
 }
 
 .pageheader3 {
   text-align: center;
-  margin: 0 auto;  
+  margin: 0 auto;
   border-radius: 50px;
   border-color: blue;
   border-style: solid;
   width: 400px;
-  height:auto;
+  height: auto;
   padding: 5px;
-  margin-bottom:20px;
-  background-image:url("assets/images/kenyan-cat-web-header-image.jpg");
+  margin-bottom: 20px;
+  background-image: url("assets/images/kenyan-cat-web-header-image.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
-  
+
 }
 
 .pageheader4 {
   text-align: center;
-  margin: 0 auto;  
+  margin: 0 auto;
   border-radius: 50px;
   border-color: lightgreen;
   border-style: solid;
   width: 300px;
-  height:auto;
+  height: auto;
   padding: 5px;
-  margin-bottom:20px;
-  background-image:url("assets/images/colorful-tie-dye-background-vector-design-hd.jpg");
+  margin-bottom: 20px;
+  background-image: url("assets/images/colorful-tie-dye-background-vector-design-hd.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
-  background-position:center;
-  
+  background-position: center;
+
 }
 
 .pageheader5 {
   text-align: center;
-  margin: 0 auto;  
+  margin: 0 auto;
   border-radius: 50px;
   border-color: lightgreen;
   border-style: solid;
   width: 800px;
-  height:auto;
+  height: auto;
   padding: 5px;
-  margin-bottom:20px;
-  background-image:url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
+  margin-bottom: 20px;
+  background-image: url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
-  background-position:center;
-  display:contents;
- 
-  
-  
+  background-position: center;
+  display: contents;
+
+
+
 }
 
 .pageheader6 {
   text-align: center;
-  margin: 0 auto;  
+  margin: 0 auto;
   border-radius: 50px;
   border-color: orangered;
   border-style: solid;
   width: 450px;
-  height:auto;
+  height: auto;
   padding: 5px;
-  margin-bottom:20px;
-  background-image:url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
+  margin-bottom: 20px;
+  background-image: url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
-  background-repeat:no-repeat;
-  background-size:cover;
-  
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .cat-caption-container {
@@ -455,10 +454,10 @@ details[open]>summary {
   width: 850px;
   padding: 5px;
   margin-bottom: 20px;
-  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
 }
@@ -472,14 +471,14 @@ details[open]>summary {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  width:110%;
-  
+  width: 110%;
+
 
 }
 
 nav {
   margin: 0 auto;
-  
+
 
 
 }
@@ -489,33 +488,33 @@ nav {
   font-size: medium;
   text-decoration: none;
   margin-left: 15px;
-  font-size:25px;
+  font-size: 25px;
 }
 
 a {
   color: blue;
   font-size: medium;
   text-decoration: none;
-  font-size:x-large;
+  font-size: x-large;
 
 }
 
 a:hover {
   color: rgb(7, 161, 33);
   font-size: x-large;
-  
+
 }
 
 #special-a:hover {
   color: green;
   font-size: x-large;
   text-decoration: none;
-  
+
 
 }
 
 #video-1 {
-  padding:1rem;
+  padding: 1rem;
 }
 
 
@@ -529,7 +528,7 @@ a:hover {
 
 
 
-footer > li {
+footer>li {
   margin-right: 9px;
   margin-bottom: 5px;
 }
@@ -646,8 +645,8 @@ td {
   background-color: lightblue;
   width: 400px;
   margin: 0 auto;
-  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
-  background-position:center;
+  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position: center;
 }
 
 
@@ -701,28 +700,28 @@ td {
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
-  width:auto;
+  width: auto;
 }
 
 .trivia {
-  background-image:url(assets/images/colorful-shine-glare-abstract-background-full-hd-1920x1080.jpg);
-  background-position:center;
+  background-image: url(assets/images/colorful-shine-glare-abstract-background-full-hd-1920x1080.jpg);
+  background-position: center;
 }
 
 .news {
-  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
-  background-position:center;
-  width:0 auto;
+  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position: center;
+  width: 0 auto;
 }
 
 .joinup {
-  background-image:url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
-  background-position:center;
+  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-position: center;
 }
 
 .important-info {
-  border-radius:15px;
-  background-color:lightblue;
+  border-radius: 15px;
+  background-color: lightblue;
 }
 
 
@@ -744,8 +743,9 @@ td {
   padding: 10px;
   border: 1px solid purple;
   background-color: lightblue;
-  
+
 }
+
 .grid-container2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -774,21 +774,14 @@ cat-caption-box {
 /* END of code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 
 /* code reasurched from https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1*/
-.blink_me {
-  animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
 
 .multicolortext {
   background-image: linear-gradient(45deg, red, blue, green);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
+
 /* END of code reasurched from https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1 */
 
 
@@ -796,59 +789,59 @@ cat-caption-box {
 
 
   html {
-    width:0 auto;
-    overflow-x:hidden;
+    width: 0 auto;
+    overflow-x: hidden;
   }
-  
+
   body {
-    width:auto;
-    margin:0 auto;
-    
-    
+    width: auto;
+    margin: 0 auto;
+
+
   }
 
   td {
-    font-size:x-small;
+    font-size: x-small;
   }
 
   th {
-    font-size:x-small;
+    font-size: x-small;
   }
 
-  
+
 
   .pageheader {
-    width:75%;
-    background-position:right;
-    height:160px;
-    padding:0.5rem;
-    margin-left:30px;
-    
+    width: 75%;
+    background-position: right;
+    height: 160px;
+    padding: 0.5rem;
+    margin-left: 30px;
+
   }
 
   .pageheader2 {
-    width:90%;
-    
+    width: 90%;
+
   }
 
   .pageheader3 {
-    width:85%;
+    width: 85%;
   }
 
   .pageheader4 {
-    width:75%;
-    
+    width: 75%;
+
   }
 
- 
+
 
   .titlebox {
-    width:320px;
+    width: 320px;
   }
 
   .titlebox2 {
-    width:200px;
-    display:contents;
+    width: 200px;
+    display: contents;
   }
 
   .DesktopFooter {
@@ -857,7 +850,7 @@ cat-caption-box {
 
   .mobile-remove {
     display: none;
-  
+
   }
 
   .grid-container {
@@ -869,71 +862,71 @@ cat-caption-box {
   }
 
   .grid-item {
-    margin-bottom:15px;
+    margin-bottom: 15px;
   }
 
   .pageheader6 {
-    width:75%;
-    margin-right:19px;
-    margin-left:24px;
+    width: 75%;
+    margin-right: 19px;
+    margin-left: 24px;
   }
 
   .news-container1 {
-    margin-left:-1px;
-    width:auto;
+    margin-left: -1px;
+    width: auto;
   }
 
   .news-container2 {
-    margin-left:-1px;
-    width:auto;
+    margin-left: -1px;
+    width: auto;
   }
 
   .news-container3 {
-    margin-left:-1px;
-    width:auto;
+    margin-left: -1px;
+    width: auto;
   }
-  
+
 
   .middle-pics {
-    height:100px;
-    width:355px;
+    height: 100px;
+    width: 355px;
   }
 
   .cat-caption-container {
-    width:330px;
+    width: 330px;
   }
 
   .map-container {
     width: 330px;
   }
 
-  .grid-item > p {
-    text-align:center;
+  .grid-item>p {
+    text-align: center;
   }
 
-  footer > p {
-    font-size:70%;
+  footer>p {
+    font-size: 70%;
   }
 
   ul {
-    text-align:center;
+    text-align: center;
   }
 
   #mobile-footer {
-    display:contents;
+    display: contents;
     border-radius: 15px;
     background-color: greenyellow;
     border-color: orange;
     border-style: solid;
-    
+
   }
 
   .redbox-meetups {
-    width:75%;
+    width: 75%;
   }
 
   .styled-box2-comp {
-    width:100%;
+    width: 100%;
   }
 
   .comp-fieldset {
@@ -941,24 +934,24 @@ cat-caption-box {
   }
 
   .blurb {
-    width:70%;
-    margin-left:55px;
+    width: 70%;
+    margin-left: 55px;
   }
 
   #signup {
-    margin-right:9%;
+    margin-right: 9%;
   }
 
   .main-title {
-    font-size:270%
+    font-size: 270%
   }
 
   .main-nav {
-    font-size:130%;
+    font-size: 130%;
   }
 
- 
-  
+
+
 
 }
 
@@ -967,12 +960,14 @@ cat-caption-box {
   .cat-caption-box {
     margin: 50px 30px;
   }
+
   main {
-    width:100%;
+    width: 100%;
   }
+
   .styledbox2-index {
     margin: 0 auto;
-    width:auto;
+    width: auto;
   }
 
   .DesktopFooter {
@@ -982,7 +977,7 @@ cat-caption-box {
   footer {
     width: 600px;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
   }
 
   #mobile-footer {
@@ -990,16 +985,16 @@ cat-caption-box {
   }
 
   .main-title {
-    font-size:300%;
-    display:contents;
+    font-size: 300%;
+    display: contents;
   }
 
   .titlebox2 {
-    margin-top:20px;
+    margin-top: 20px;
   }
 
-  
 
 
- 
+
+
 }

@@ -8,6 +8,7 @@ Welcome to the Cat Fan Club website! This website is dedicated to all the cat lo
 - Learn interesting facts about different cat breeds.
 - Participate in discussions with fellow cat enthusiasts at meetups.
 - Stay updated with the latest news and events in the cat world.
+- Competitions and Prizes
 
 ## Installation
 
