@@ -35,7 +35,6 @@
 
 .honk {
   font-family: "Honk", system-ui;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
@@ -201,7 +200,7 @@ h3 {
 ul {
   display: table;
   margin: 0 auto;
-  text-align: middle;
+  text-align: center;
   gap: 100px;
   list-style-type: none;
 }
@@ -537,7 +536,7 @@ footer>li {
 .styled-box2-meetups {
   padding: 1rem 0;
   margin-bottom: 80px;
-  background-image: url("assets/images/group meetup.jpg");
+  background-image: url("assets/images/groupmeetup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -711,7 +710,7 @@ td {
 .news {
   background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
   background-position: center;
-  width: 0 auto;
+
 }
 
 .joinup {
@@ -789,7 +788,7 @@ cat-caption-box {
 
 
   html {
-    width: 0 auto;
+
     overflow-x: hidden;
   }
 
