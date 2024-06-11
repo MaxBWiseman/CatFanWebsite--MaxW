@@ -1,42 +1,19 @@
-# Cat Fan Club Website
+#Cat Fan Website by Max Wiseman#
 
-Welcome to the Cat Fan Club website! This website is dedicated to all the cat lovers out there who can't get enough of these adorable creatures. Whether you're a proud cat owner or simply a fan of feline friends, this is the place for you.
+I intend this website to be functional for a group of individuals that enjoy the company of cats just as much as humans and want to talk and share there storys whilst providing advice to people with similar intrests. My website acts as a hub to show the world:
 
-## Features
+1. A page that shows clearly when and wear meetups take place, and what time
 
-- Browse a collection of cute cat pictures and videos.
-- Learn interesting facts about different cat breeds.
-- Participate in discussions with fellow cat enthusiasts at meetups.
-- Stay updated with the latest news and events in the cat world.
-- Competitions and Prizes
+2. Competitions that are currentley on offer with prizes displayed
 
-## Installation
+3. A fun collection of cat pictures with funny captions next to them in various scenarios
 
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
+4. A small hub for cat related news articles
 
-## Usage
+5. A place to gather email addresses and other data required to promote such a group
 
-- Explore the different sections of the website to find cat pictures, videos, and information about various cat breeds.
-- Join the discussion and meetup to share your own cat stories and connect with other cat lovers.
-- Stay updated with the latest news and events by checking the website regularly.
+6. Provide quick facts and advice through interactive clickable icons
 
-## Contributing
+7. A fun brief weekly cat related quiz to test your knowledge on
 
-We welcome contributions from fellow cat enthusiasts! If you have any suggestions, bug reports, or would like to contribute new features, please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request to the main repository.
-
-## License
-
-This project is created by Max Wiseman. Open Source.
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out to us at [maxwise70@hotmail.co.uk].
-
-Happy cat-loving!
+8. A page to fill in our compeition application
