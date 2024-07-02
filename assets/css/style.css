@@ -99,7 +99,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url("assets/images/pink-blue-texture-watercolor-artistic-abstract-background-hd-1920x1080.jpg");
+  background-image: url("../images/pink-blue-texture-watercolor-artistic-abstract-background-hd-1920x1080.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -127,7 +127,7 @@ footer>p {
   background-color: orange;
   text-align: center;
   font-size: 20px;
-  background-image: url(assets/images/colorful-geometric-shapes-vector-background-pattern.jpg);
+  background-image: url("../images/colorful-geometric-shapes-vector-background-pattern.jpg");
   background-position: center;
   background-size: cover;
 
@@ -137,7 +137,7 @@ footer>p {
   width: 400px;
   height: 175px;
   border-radius: 25px;
-  background-image: url(assets/images/OIP.jpeg);
+  background-image: url("../images/OIP.jpeg");
   background-position: center;
   background-size: cover;
   margin-left: 70px;
@@ -147,7 +147,7 @@ footer>p {
   width: 400px;
   height: 175px;
   border-radius: 25px;
-  background-image: url(assets/images/R.jpeg);
+  background-image: url("../images/R.jpeg");
   background-position: center;
   background-size: cover;
   margin-left: 70px;
@@ -157,7 +157,7 @@ footer>p {
   width: 400px;
   height: 175px;
   border-radius: 25px;
-  background-image: url(assets/images/7719ce60-f80c-11ee-8413-8d1fbc0364d9.jpg.webp);
+  background-image: url("../images/7719ce60-f80c-11ee-8413-8d1fbc0364d9.jpg.webp");
   background-position: center;
   background-size: cover;
   margin-left: 70px;
@@ -243,7 +243,7 @@ li:hover {
   background: lightblue;
   height: auto;
   box-shadow: 0 5px 3px #3a3a3a;
-  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -315,7 +315,7 @@ details[open]>summary {
   width: 470px;
   padding: 5px;
   margin-bottom: 20px;
-  background-image: url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
+  background-image: url("../images/colorful-geometric-shapes-vector-background-pattern.jpg");
   background-position: center;
 }
 
@@ -353,7 +353,7 @@ details[open]>summary {
   height: 130px;
   padding: 5px;
   margin-bottom: 20px;
-  background-image: url("assets/images/cats-header-20730-800x200.jpg");
+  background-image: url("../images/cats-header-20730-800x200.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
 
 }
@@ -368,7 +368,7 @@ details[open]>summary {
   height: auto;
   padding: 5px;
   margin-bottom: 20px;
-  background-image: url("assets/images/cats-header-20725-800x200.jpg");
+  background-image: url("../images/cats-header-20725-800x200.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
   background-repeat: no-repeat;
   background-size: cover;
@@ -386,7 +386,7 @@ details[open]>summary {
   height: auto;
   padding: 5px;
   margin-bottom: 20px;
-  background-image: url("assets/images/kenyan-cat-web-header-image.jpg");
+  background-image: url("../images/kenyan-cat-web-header-image.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
 
 }
@@ -401,7 +401,7 @@ details[open]>summary {
   height: auto;
   padding: 5px;
   margin-bottom: 20px;
-  background-image: url("assets/images/colorful-tie-dye-background-vector-design-hd.jpg");
+  background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
   background-position: center;
 
@@ -417,7 +417,7 @@ details[open]>summary {
   height: auto;
   padding: 5px;
   margin-bottom: 20px;
-  background-image: url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
+  background-image: url("../images/colorful-geometric-shapes-vector-background-pattern.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
   background-position: center;
   display: contents;
@@ -436,7 +436,7 @@ details[open]>summary {
   height: auto;
   padding: 5px;
   margin-bottom: 20px;
-  background-image: url("assets/images/colorful-geometric-shapes-vector-background-pattern.jpg");
+  background-image: url("../images/colorful-geometric-shapes-vector-background-pattern.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
   background-repeat: no-repeat;
   background-size: cover;
@@ -453,7 +453,7 @@ details[open]>summary {
   width: 850px;
   padding: 5px;
   margin-bottom: 20px;
-  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -465,7 +465,7 @@ details[open]>summary {
 .styledbox2-index {
   padding: 1rem 0;
   margin-bottom: 80px;
-  background-image: url("assets/images/439038.jpg");
+  background-image: url("../images/439038.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -536,7 +536,7 @@ footer>li {
 .styled-box2-meetups {
   padding: 1rem 0;
   margin-bottom: 80px;
-  background-image: url("assets/images/groupmeetup.jpg");
+  background-image: url("../images/groupmeetup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -644,7 +644,7 @@ td {
   background-color: lightblue;
   width: 400px;
   margin: 0 auto;
-  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   background-position: center;
 }
 
@@ -694,7 +694,7 @@ td {
 .styled-box2-comp {
   padding: 1rem 0;
   margin-bottom: 80px;
-  background-image: url("assets/images/5922554.jpg");
+  background-image: url("../images/5922554.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -703,18 +703,18 @@ td {
 }
 
 .trivia {
-  background-image: url(assets/images/colorful-shine-glare-abstract-background-full-hd-1920x1080.jpg);
+  background-image: url("../images/colorful-shine-glare-abstract-background-full-hd-1920x1080.jpg");
   background-position: center;
 }
 
 .news {
-  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   background-position: center;
 
 }
 
 .joinup {
-  background-image: url(assets/images/colorful-tie-dye-background-vector-design-hd.jpg);
+  background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   background-position: center;
 }
 
