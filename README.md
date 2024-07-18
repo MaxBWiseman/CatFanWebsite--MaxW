@@ -3,7 +3,7 @@
 Welcome to the Cat Fan Website! 🐾
 
 # About
-This website is dedicated to cat enthusiasts who share our love for these furry companions. Whether you’re a seasoned cat owner or simply adore feline friends, this platform is for you. Here’s what you’ll find:
+This website is dedicated to cat enthusiasts who share our love for furry companions. This website was created with HTML and CSS, and a special thanks to Code Institute for providing me with the guidance to create this project. So, whether you’re a seasoned cat owner or simply adore feline friends, this platform is for you. Here’s what you’ll find:
 
 
 # Features
@@ -42,11 +42,27 @@ This website is dedicated to cat enthusiasts who share our love for these furry 
 
 # Lighthouse
 
-### For PC
+#### This website was tested for responsiveness using microsoft lighthouse
+
+## For PC
 
 ![alt text](assets/images/catclublighthouse.png)
 
-### For Mobile
+## For Mobile
 
 ![alt text](assets/images/catclubmobilelighthouse.png)
+
+
+# Mobile support
+
+### The Cat Lover's Retreat should be viewable on most phones, tablets/pads will not work very well and support for them is a possible feature in the future. Here are some screenshots taken with a Iphone SE phoneview - 
+
+![alt text](assets/images/ccmobile1.png)
+![alt text](assets/images/ccmobile2.png)
+![alt text](assets/images/ssmobile3.png)
+![alt text](assets/images/ssmobile4.png)
+![alt text](assets/images/ssmobile5.png)
+![alt text](assets/images/ssmobile6.png)
+![alt text](assets/images/ssmobile7.png)
+![alt text](assets/images/ssmobile8.png)
 
