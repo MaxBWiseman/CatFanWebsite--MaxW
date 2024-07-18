@@ -1,6 +1,8 @@
-# Cat Fan Website by Max Wiseman
+# Cat Lover's Retreat Website by Max Wiseman
 
-Welcome to the Cat Fan Website! 🐾
+![alt text](assets/images/editedcatcoder.png)
+
+## Welcome to the Cat Lover's Retreat Website! 🐾
 
 # About
 This website is dedicated to cat enthusiasts who share our love for furry companions. This website was created with HTML and CSS, and a special thanks to Code Institute for providing me with the guidance to create this project. So, whether you’re a seasoned cat owner or simply adore feline friends, this platform is for you. Here’s what you’ll find:
@@ -42,7 +44,7 @@ This website is dedicated to cat enthusiasts who share our love for furry compan
 
 # Lighthouse
 
-#### This website was tested for responsiveness using microsoft lighthouse
+### This website was tested for responsiveness using microsoft lighthouse
 
 ## For PC
 
