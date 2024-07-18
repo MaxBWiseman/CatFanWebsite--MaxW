@@ -26,7 +26,7 @@ This website is dedicated to cat enthusiasts who share our love for these furry 
 ## Quick Tips
 ### Need cat advice? Click on our interactive icons for handy tips and facts about cat care, behavior, and more.
 ![Cat Lovers quick tips lists](assets/images/catclubpic2.png)
-![Cat Lovers quick tips lists](assets/images/catclubpic3.png)
+![Cat Lovers quick tips lists](assets/images/editedquicktips.png)
 ## Weekly Cat Quiz
 ### Test your cat knowledge! Take our fun and brief weekly quiz to challenge yourself and learn something new.
 ![alt text](assets/images/catquizpic1.png)
