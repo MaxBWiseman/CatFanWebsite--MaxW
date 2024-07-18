@@ -36,3 +36,17 @@ This website is dedicated to cat enthusiasts who share our love for these furry 
 ![alt text](assets/images/compform.png)
 
 ### Let’s celebrate our whiskered companions together! 🐱
+
+
+
+
+# Lighthouse
+
+### For PC
+
+![alt text](assets/images/catclublighthouse.png)
+
+### For Mobile
+
+![alt text](assets/images/catclubmobilelighthouse.png)
+
