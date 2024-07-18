@@ -2,7 +2,9 @@
 
 ![alt text](assets/images/editedcatcoder.png)
 
-## Welcome to the Cat Lover's Retreat Website! 🐾
+### Welcome to the Cat Lover's Retreat Website! 🐾
+
+#### Here is the GitHub Pages link to *[Cat Lover's Retreat](https://maxbwiseman.github.io/CatFanWebsite--MaxW/)*.
 
 # About
 This website is dedicated to cat enthusiasts who share our love for furry companions. This website was created with HTML and CSS, and a special thanks to Code Institute for providing me with the guidance to create this project. So, whether you’re a seasoned cat owner or simply adore feline friends, this platform is for you. Here’s what you’ll find:
@@ -67,4 +69,8 @@ This website is dedicated to cat enthusiasts who share our love for furry compan
 ![alt text](assets/images/ssmobile6.png)
 ![alt text](assets/images/ssmobile7.png)
 ![alt text](assets/images/ssmobile8.png)
+
+## Thanks for taking time to check out my first ever website! 🐾
+
+#### Here is the GitHub Pages link to *[Cat Lover's Retreat](https://maxbwiseman.github.io/CatFanWebsite--MaxW/)*.
 
