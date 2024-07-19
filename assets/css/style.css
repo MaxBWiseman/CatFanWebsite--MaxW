@@ -829,8 +829,38 @@ cat-caption-box {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 480px) {
+  body {
+    max-width: 100%;
+    
+  }
+
+  html {
+    max-width: 100%;
+  }
+
+  .styledbox2-index {
+    width: 300%
+  }
+
+  .joinup {
+    width:80%;
+    
+    
+  }
+
+  .grid-pics {
+    display: none;
+  }
+
+  .blurb {
+    display: none;
+  }
+
+  .mobile-remove {
+    display: none;
   
+  }
 }
 
 
