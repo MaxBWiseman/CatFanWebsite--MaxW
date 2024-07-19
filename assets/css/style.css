@@ -175,7 +175,7 @@ ul li {
   width: auto;
   height: auto;
   background-color: greenyellow;
-  border-radius: 5px;
+  border-radius: 25px;
   font-size: large;
 
 }
@@ -881,7 +881,6 @@ cat-caption-box {
 
   .important-info {
     font-size: 400%;
-    width: 50%;
     display: contents;
     
     
@@ -900,7 +899,7 @@ cat-caption-box {
 
   .grid-item {
     width: 95%;
-    height: 350px;
+    height: 599px;
     
     
    
@@ -924,7 +923,21 @@ cat-caption-box {
     height: 50%;
   }
 
+  ul {
+    display: inline-flex
+  }
+
+  li {
+    
+  }
+
+  summary {
+    font-size: 45px
+  }
+  
+
 }
+
 
 
 
