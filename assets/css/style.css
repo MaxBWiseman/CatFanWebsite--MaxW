@@ -924,7 +924,8 @@ cat-caption-box {
   }
 
   ul {
-    display: inline-flex
+    display: inline-flex;
+    gap: 10px;
   }
 
   li {
