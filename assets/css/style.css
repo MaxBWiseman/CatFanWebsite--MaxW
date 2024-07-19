@@ -845,7 +845,8 @@ cat-caption-box {
   }
 
   .joinup {
-    width:80%;
+    
+    display: none
     
   }
 
@@ -894,8 +895,16 @@ cat-caption-box {
     display:block;
     
     
+    
   }
 
+  .grid-container2 {
+    display: block
+  }
+
+  .trivia {
+    font-size: 50px
+  }
 
   .grid-item {
     width: 95%;
@@ -908,19 +917,19 @@ cat-caption-box {
   
 
   .news {
-    width:95%;
-    height: 200%;
+    width:260%;
     margin-bottom: 10px
     
   }
 
   p, a {
-    font-size: 220%;
+    font-size: 250%;
     
   }
 
   .news-container1, .news-container2, .news-container3 {
-    height: 50%;
+    height: 40%;
+    width: 70%
   }
 
   ul {
@@ -935,8 +944,10 @@ cat-caption-box {
   summary {
     font-size: 45px
   }
+
   
 
+  
 }
 
 
