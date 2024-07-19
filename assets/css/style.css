@@ -829,7 +829,15 @@ cat-caption-box {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
+  
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) {
   .cat-caption-box {
     margin: 50px 30px;
   }
