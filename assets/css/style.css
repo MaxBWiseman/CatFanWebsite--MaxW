@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&family=Indie+Flower&family=Rowdies:wght@300;400;700&display=swap');
 
-
-
 .bungee-spice-regular {
   font-family: "Bungee Spice", sans-serif;
   font-weight: 400;
@@ -30,7 +28,6 @@
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
   font-style: normal;
-
 }
 
 .honk {
@@ -42,22 +39,13 @@
     "SHLN"50;
 }
 
-
-
 * {
-
   font-family: cursive, sans-serif, monospace;
 }
 
 h2 {
-
   padding: 9px;
-
-
-
 }
-
-
 
 legend {
   font-weight: bold;
@@ -65,13 +53,9 @@ legend {
   width: 100%
 }
 
-
-
 #submit {
   background-color: lightblue;
 }
-
-
 
 fieldset {
   text-align: center;
@@ -79,14 +63,12 @@ fieldset {
 }
 
 .middle-pics {
-
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   height: 200px;
 }
-
 
 figcaption {
   font-size: 20px;
@@ -104,21 +86,11 @@ body {
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
-
-
-
 }
-
-
 
 main {
-
   flex: 1 0 auto;
 }
-
-
-
-
 
 footer>p {
   border-radius: 50%;
@@ -130,7 +102,6 @@ footer>p {
   background-image: url("../images/colorful-geometric-shapes-vector-background-pattern.jpg");
   background-position: center;
   background-size: cover;
-
 }
 
 .news-container1 {
@@ -153,7 +124,6 @@ footer>p {
   background-size: cover;
   text-align: center;
   margin: 0 auto;
-  
 }
 
 .news-container3 {
@@ -165,19 +135,14 @@ footer>p {
   background-size: cover;
   text-align: center;
   margin: 0 auto;
-  
 }
 
-
 h3 {
-
-
   text-align: center
 }
 
 .row {
   display: flex;
-
 }
 
 .column {
@@ -189,16 +154,12 @@ h3 {
   float: inline-end;
 }
 
-
-
-
 .styled-box {
   padding: 10px 5px 25px 5px;
   border-radius: 8px;
   width: 750px;
   text-align: center;
   margin: 0 auto;
-
   background-color: lightblue;
 }
 
@@ -219,7 +180,6 @@ ul li {
 
 }
 
-
 li {
   width: auto;
   height: auto;
@@ -232,13 +192,11 @@ li {
   background-color: rgb(7, 161, 33);
   transition: color 1s ease;
   margin-top: 8px;
-
 }
 
 li:hover {
   background-color: orange
 }
-
 
 .map-container {
   width: 500px;
@@ -269,6 +227,7 @@ li:hover {
 details>summary {
   list-style-type: none;
 }
+
 /* These webkits let me remove the default arrow and replace it with a cat emoji. */
 details>summary::-webkit-details-marker {
   display: none;
@@ -286,7 +245,6 @@ details {
   border: 1px solid gray;
   border-radius: 0.2rem;
   padding: 0.5rem;
-
   transition: color 1s ease;
 }
 
@@ -360,7 +318,6 @@ details[open]>summary {
   margin-bottom: 20px;
   background-image: url("../images/cats-header-20730-800x200.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
-
 }
 
 .pageheader2 {
@@ -378,7 +335,6 @@ details[open]>summary {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 
 .pageheader3 {
@@ -393,7 +349,6 @@ details[open]>summary {
   margin-bottom: 20px;
   background-image: url("../images/kenyan-cat-web-header-image.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
-
 }
 
 .pageheader4 {
@@ -409,7 +364,6 @@ details[open]>summary {
   background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
   background-position: center;
-
 }
 
 .pageheader5 {
@@ -426,9 +380,6 @@ details[open]>summary {
   box-shadow: 0 5px 3px #3a3a3a;
   background-position: center;
   display: contents;
-
-
-
 }
 
 .pageheader6 {
@@ -445,7 +396,6 @@ details[open]>summary {
   box-shadow: 0 5px 3px #3a3a3a;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .cat-caption-container {
@@ -462,10 +412,7 @@ details[open]>summary {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
-
 
 .styledbox2-index {
   padding: 1rem 0;
@@ -476,15 +423,10 @@ details[open]>summary {
   background-position: center center;
   background-attachment: fixed;
   width: 110%;
-
-
 }
 
 nav {
   margin: 0 auto;
-
-
-
 }
 
 .main-nav {
@@ -500,43 +442,32 @@ a {
   font-size: medium;
   text-decoration: none;
   font-size: x-large;
-
 }
 
 a:hover {
   color: rgb(7, 161, 33);
   font-size: x-large;
-
 }
 
 #special-a:hover {
   color: green;
   font-size: x-large;
   text-decoration: none;
-
-
 }
 
 #video-1 {
   padding: 1rem;
 }
 
-
-
-
 .map-meetups {
   width: 100%;
   display: inline-block;
 }
 
-
-
-
 footer>li {
   margin-right: 9px;
   margin-bottom: 5px;
 }
-
 
 .styled-box2-meetups {
   padding: 1rem 0;
@@ -548,23 +479,16 @@ footer>li {
   background-attachment: fixed;
 }
 
-
 table {
   width: 100%;
   margin: 20px 0;
-
 }
-
-
 
 h1 {
   width: 380px;
   text-align: center;
   margin: 0 auto;
-
 }
-
-
 
 .bluebox-meetups {
   text-align: center;
@@ -602,10 +526,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-
-
-
-
 .special-li {
   display: inline-block;
 }
@@ -619,7 +539,6 @@ th {
   padding: 5px;
   margin-bottom: 20px;
   font-size: x-large;
-
 }
 
 td {
@@ -631,18 +550,12 @@ td {
   padding: 5px;
   margin-bottom: 20px;
   font-size: x-large;
-
 }
-
 
 .comp-text {
-
   font-size: 20px;
   text-align: center;
-
 }
-
-
 
 .comp-fieldset {
   text-align: center;
@@ -653,16 +566,10 @@ td {
   background-position: center;
 }
 
-
-
 .map-comp {
   width: 100%;
   display: inline-block;
 }
-
-
-
-
 
 .comp-li {
   margin-right: 20px;
@@ -681,8 +588,6 @@ td {
   margin-top: 20px;
 }
 
-
-
 .titlebox-comp {
   text-align: center;
   margin: 0 auto;
@@ -693,7 +598,6 @@ td {
   width: 500px;
   padding: 5px;
   margin-bottom: 20px;
-
 }
 
 .styled-box2-comp {
@@ -715,7 +619,6 @@ td {
 .news {
   background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   background-position: center;
-
 }
 
 .joinup {
@@ -727,16 +630,7 @@ td {
   border-radius: 15px;
   background-color: lightblue;
 }
-
-
-
-
-
 /* code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
-
-
-
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -747,7 +641,6 @@ td {
   padding: 10px;
   border: 1px solid purple;
   background-color: lightblue;
-
 }
 
 .grid-container2 {
@@ -758,9 +651,7 @@ td {
 
 .grid-pics {
   padding: 10px;
-
 }
-
 
 cat-caption-box {
   display: grid;
@@ -773,35 +664,24 @@ cat-caption-box {
   width: 35%;
   height: 35%;
 }
-
-
 /* END of code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 
 /* code reasurched from https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1*/
-
 .multicolortext {
   background-image: linear-gradient(45deg, red, blue, green);
- 
   background-clip: text;
   color: transparent;
 }
-
 /* END of code reasurched from https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1 */
-
-
 @media screen and (max-width: 480px) {
 
-
   html {
-
     overflow-x: hidden;
   }
 
   body {
     width: auto;
     margin: 0 auto;
-
-
   }
 
   td {
@@ -812,15 +692,12 @@ cat-caption-box {
     font-size: x-small;
   }
 
-
-
   .pageheader {
     width: 75%;
     background-position: right;
     height: 160px;
     padding: 0.5rem;
     margin-left: 30px;
-
   }
 
   .pageheader2 {
@@ -836,8 +713,6 @@ cat-caption-box {
     width: 75%;
 
   }
-
-
 
   .titlebox {
     width: 320px;
@@ -889,7 +764,6 @@ cat-caption-box {
     margin-left: -1px;
     width: auto;
   }
-
 
   .middle-pics {
     height: 100px;
@@ -953,12 +827,7 @@ cat-caption-box {
   .main-nav {
     font-size: 130%;
   }
-
-
-
-
 }
-
 
 @media screen and (min-width: 768px) {
   .cat-caption-box {
@@ -996,9 +865,4 @@ cat-caption-box {
   .titlebox2 {
     margin-top: 20px;
   }
-
-
-
-
-
 }
