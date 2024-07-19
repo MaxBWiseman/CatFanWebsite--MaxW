@@ -830,9 +830,10 @@ cat-caption-box {
 }
 
 @media screen and (min-width: 480px) {
+
   body {
     max-width: 100%;
-    
+
   }
 
   html {
@@ -840,12 +841,11 @@ cat-caption-box {
   }
 
   .styledbox2-index {
-    width: 300%
+    width: 274%;
   }
 
   .joinup {
     width:80%;
-    
     
   }
 
@@ -861,6 +861,69 @@ cat-caption-box {
     display: none;
   
   }
+
+  .pageheader {
+    height: 100%;
+    display:contents;
+  }
+
+  .main-nav {
+    font-size: 300%
+  }
+
+  .honk {
+    font-size: 500%
+  }
+
+  h3 > .honk {
+    
+  }
+
+  .important-info {
+    font-size: 400%;
+    width: 50%;
+    display: contents;
+    
+    
+  }
+
+  .titlebox2 {
+    width: 65%;
+  }
+
+  .grid-container {
+    display:block;
+    
+    
+  }
+
+
+  .grid-item {
+    width: 95%;
+    height: 350px;
+    
+    
+   
+  }
+
+  
+
+  .news {
+    width:95%;
+    height: 200%;
+    margin-bottom: 10px
+    
+  }
+
+  p, a {
+    font-size: 220%;
+    
+  }
+
+  .news-container1, .news-container2, .news-container3 {
+    height: 50%;
+  }
+
 }
 
 
