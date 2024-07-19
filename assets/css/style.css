@@ -642,6 +642,11 @@ td {
   border: 1px solid purple;
   background-color: lightblue;
 }
+.grid-item2 {
+  padding: 10px;
+  border: 1px solid purple;
+  background-color: lightblue;
+}
 
 .grid-container2 {
   display: grid;
@@ -873,13 +878,10 @@ cat-caption-box {
   }
 
   .honk {
-    font-size: 500%
+    font-size: 400%
   }
 
-  h3 > .honk {
-    
-  }
-
+   
   .important-info {
     font-size: 400%;
     display: contents;
@@ -893,8 +895,6 @@ cat-caption-box {
 
   .grid-container {
     display:block;
-    
-    
     
   }
 
@@ -914,16 +914,21 @@ cat-caption-box {
    
   }
 
+  .grid-item2 {
+    width: 269%;
+    padding-bottom: 60px;
+  }
+
   
 
   .news {
-    width:260%;
+    width:269%;
     margin-bottom: 10px
     
   }
 
   p, a {
-    font-size: 250%;
+    font-size: 300%;
     
   }
 
@@ -937,15 +942,25 @@ cat-caption-box {
     gap: 10px;
   }
 
-  li {
-    
-  }
+ 
 
   summary {
-    font-size: 45px
+    font-size: 55px
   }
 
+  .triviatitle {
+    font-size: 80px
+  }
+
+  .middle-pics {
+    width: 290%;
+    
+  }
   
+  .cat-caption-container {
+    display:inline-block;
+    width: 270%;
+  }
 
   
 }
