@@ -822,7 +822,6 @@ cat-caption-box {
     background-color: greenyellow;
     border-color: orange;
     border-style: solid;
-
   }
 
   .redbox-meetups {
@@ -853,7 +852,6 @@ cat-caption-box {
 
 @media only screen and (min-width: 480px) {
 
- 
   body {
     max-width: 200%;
 
@@ -868,9 +866,7 @@ cat-caption-box {
   }
 
   .joinup {
-    
-    display: none
-    
+    display: none;
   }
 
   .grid-pics {
@@ -883,7 +879,6 @@ cat-caption-box {
 
   .mobile-remove {
     display: none;
-  
   }
 
   .pageheader {
@@ -899,12 +894,9 @@ cat-caption-box {
     font-size: 400%
   }
 
-   
   .important-info {
     font-size: 400%;
     display: contents;
-    
-    
   }
 
   .titlebox2 {
@@ -926,10 +918,7 @@ cat-caption-box {
 
   .grid-item {
     width: 90%;
-    height: 170%px;
-    
-    
-   
+    height: 170%;
   }
 
   .grid-item2 {
@@ -937,18 +926,14 @@ cat-caption-box {
     padding-bottom: 60px;
   }
 
-  
-
   .news {
     width:174%;
     margin-bottom: 10px;
     height: 10%
-    
   }
 
   p, a {
     font-size: 200%;
-    
   }
 
   .news-container1, .news-container2, .news-container3 {
@@ -961,8 +946,6 @@ cat-caption-box {
     gap: 10px;
   }
 
- 
-
   summary {
     font-size: 100%
   }
@@ -973,7 +956,6 @@ cat-caption-box {
 
   .middle-pics {
     width: 179%;
-    
   }
   
   .cat-caption-container {
@@ -981,11 +963,7 @@ cat-caption-box {
     width: 176%;
   }
 
-  
 }
-
-
-
 
 @media only screen and (min-width: 1024px) {
 
@@ -1045,14 +1023,12 @@ cat-caption-box {
     font-size: 150%;
   }
 
-   
   .important-info {
     font-size: 130%;
     display: contents;
     
     
   }
-
 
   .grid-container {
     display:flex;
@@ -1100,8 +1076,6 @@ cat-caption-box {
     gap: 10px;
   }
 
- 
-
   summary {
     font-size:95%
   }
@@ -1113,13 +1087,11 @@ cat-caption-box {
   .middle-pics {
     width: 95%;
     height:130px;
-    
   }
   
   .cat-caption-container {
     display:block;
     width: 55%;
-    
   }
   .titlebox2 {
     display:inline-block;
@@ -1150,8 +1122,6 @@ cat-caption-box {
     font-size: 30px
   }
 
-  
-
   .DesktopFooter {
     display: contents;
   }
@@ -1170,6 +1140,5 @@ cat-caption-box {
     font-size: 400%;
     display:block;
   }
-
 
 }
