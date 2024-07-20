@@ -694,7 +694,6 @@ cat-caption-box {
   height: 35%;
 }
 /* END of code reasurched from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
-
 /* code reasurched from https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1*/
 .multicolortext {
   background-image: linear-gradient(45deg, red, blue, green);
@@ -869,12 +868,10 @@ cat-caption-box {
   }
 }
 
-
 @media only screen and (min-width: 480px) {
 
   body {
     max-width: 200%;
-
   }
 
   html {
@@ -886,7 +883,7 @@ cat-caption-box {
   }
 
   .styled-box2-meetups {
-    margin-top: 50px
+    margin-top: 50px;
   }
 
   .joinup {
@@ -911,11 +908,11 @@ cat-caption-box {
   }
 
   .main-nav {
-    font-size: 220%
+    font-size: 220%;
   }
 
   .honk {
-    font-size: 300%
+    font-size: 300%;
   }
 
   .important-info {
@@ -924,7 +921,6 @@ cat-caption-box {
   }
 
   .titlebox {
-    
     width: 150%;
   }
 
@@ -940,15 +936,14 @@ cat-caption-box {
 
   .grid-container {
     display:block;
-    
   }
 
   .grid-container2 {
-    display: block
+    display: block;
   }
 
   .trivia {
-    font-size: 50px
+    font-size: 50px;
   }
 
   .grid-item {
@@ -964,7 +959,7 @@ cat-caption-box {
   .news {
     width:174%;
     margin-bottom: 10px;
-    height: 10%
+    height: 10%;
   }
 
   p {
@@ -973,7 +968,7 @@ cat-caption-box {
 
   .news-container1, .news-container2, .news-container3 {
     height: 40%;
-    width: 70%
+    width: 70%;
   }
 
   ul {
@@ -983,11 +978,11 @@ cat-caption-box {
   }
 
   summary {
-    font-size: 100%
+    font-size: 100%;
   }
 
   .triviatitle {
-    font-size: 80px
+    font-size: 80px;
   }
 
   .middle-pics {
@@ -1005,9 +1000,6 @@ cat-caption-box {
     width: 176%;
   }
 
-  
-
-
   .DesktopFooter {
     display: none;
   }
@@ -1023,10 +1015,8 @@ cat-caption-box {
   }
 
   .news-container1, .news-container2, .news-container3 {
-    height: 250px
+    height: 250px;
   }
-
-
 
 }
 
@@ -1034,7 +1024,6 @@ cat-caption-box {
 
   body {
     max-width: 200%;
-
   }
 
   html {
@@ -1049,41 +1038,34 @@ cat-caption-box {
     height: 410px;
     width: 600px;
     display: revert;
-    
   }
 
   .joinup1 {
     display: revert;
     width: 100px;
-    
   }
 
   .grid-pics {
     display: revert;
     height: 400px;
-    width: 40%
-    
+    width: 40%;
   }
 
   .blurb {
     display:inline-block;
     width: 95%;
-    
   }
 
   .mobile-remove {
     display: revert;
-  
   }
 
   .pageheader {
     height: 40%;
-    
   }
 
   .pagerheader2 {
     margin-top: 40px;
-    
   }
 
   .main-nav {
@@ -1097,25 +1079,22 @@ cat-caption-box {
   .important-info {
     font-size: 130%;
     display: contents;
-    
-    
   }
 
   .grid-container {
-    display:flex;
-    
+    display: flex;
   }
 
   .grid-container2 {
-    display:flex;
+    display: flex;
   }
 
   .trivia {
-    font-size: 0
+    font-size: 0;
   }
 
   .grid-item {
-    width:100% ;
+    width: 100% ;
     height: 10%;
   }
 
@@ -1125,16 +1104,14 @@ cat-caption-box {
   }
 
   .news {
-    width:100%;
-    margin-top:70px;
+    width: 100%;
+    margin-top: 70px;
     margin-bottom: 130px;
     height: 400px;
-    
   }
 
   p, a {
     font-size: 120%;
-    
   }
 
   .news-container1, .news-container2, .news-container3 {
@@ -1143,12 +1120,12 @@ cat-caption-box {
   }
 
   ul {
-    display:block;
+    display: block;
     gap: 10px;
   }
 
   summary {
-    font-size:95%
+    font-size: 95%
   }
 
   .triviatitle {
@@ -1157,17 +1134,17 @@ cat-caption-box {
 
   .middle-pics {
     width: 95%;
-    height:130px;
+    height: 130px;
   }
   
   .cat-caption-container {
-    display:block;
+    display: block;
     width: 55%;
   }
   .titlebox2 {
-    display:inline-block;
-    height:160px;
-    width:600px;
+    display: inline-block;
+    height: 160px;
+    width: 600px;
   }
 
   .titlebox3 {
