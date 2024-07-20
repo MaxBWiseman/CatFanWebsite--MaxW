@@ -82,6 +82,18 @@ This website is dedicated to cat enthusiasts who share our love for furry compan
 ### 2. A working Cat Caption submit button, so people can freely submit cat photos
 
 
+# HTML/CSS Tests
+
+![alt text](assets/images/indexhtmltest.png)
+
+![alt text](assets/images/htmlcheckquestionair.png)
+
+![alt text](assets/images/htmlcheckmeetups.png)
+
+![alt text](assets/images/cssvalidator.png)
+
+
+
 
 ## Thanks for taking time to check out my first ever website! 🐾
 
