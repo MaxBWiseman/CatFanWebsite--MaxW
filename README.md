@@ -70,6 +70,19 @@ This website is dedicated to cat enthusiasts who share our love for furry compan
 ![alt text](assets/images/ssmobile7.png)
 ![alt text](assets/images/ssmobile8.png)
 
+
+# Known Bugs
+### There is a bug with responsive design on tablet view at the bottom of the index.html page. 
+![alt text](assets/images/knownbug.png)
+
+
+# Possible new features
+
+### 1. A feature like a chat room for members , so people can freely talk about cat related things together.
+### 2. A working Cat Caption submit button, so people can freely submit cat photos
+
+
+
 ## Thanks for taking time to check out my first ever website! 🐾
 
 #### Here is the GitHub Pages link to *[Cat Lover's Retreat](https://maxbwiseman.github.io/CatFanWebsite--MaxW/)*.
