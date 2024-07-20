@@ -645,6 +645,9 @@ td {
 .joinup2 {
   background-image: url("../images/kenyan-cat-web-header-image.jpg");
   background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  
 }
 
 .important-info {
@@ -721,7 +724,7 @@ cat-caption-box {
   .pageheader {
     width: 75%;
     background-position: right;
-    height: 160px;
+    height: 180px;
     padding: 0.5rem;
     margin-left: 30px;
   }
@@ -748,6 +751,13 @@ cat-caption-box {
     width: 200px;
     display: contents;
   }
+
+  .titlebox3 {
+    width: 200px;
+    display: contents;
+  }
+
+ 
 
   .DesktopFooter {
     display: none;
@@ -846,9 +856,19 @@ cat-caption-box {
   }
 
   .main-nav {
-    font-size: 130%;
+    font-size: 124%;
+    
+  }
+
+  .blurb {
+    display: none;
+  }
+
+  .joinup1 {
+    display: none;
   }
 }
+
 
 @media only screen and (min-width: 480px) {
 
@@ -863,6 +883,10 @@ cat-caption-box {
 
   .styledbox2-index {
     width: 178%;
+  }
+
+  .styled-box2-meetups {
+    margin-top: 50px
   }
 
   .joinup {
@@ -887,11 +911,11 @@ cat-caption-box {
   }
 
   .main-nav {
-    font-size: 300%
+    font-size: 220%
   }
 
   .honk {
-    font-size: 400%
+    font-size: 300%
   }
 
   .important-info {
@@ -899,8 +923,19 @@ cat-caption-box {
     display: contents;
   }
 
+  .titlebox {
+    
+    width: 150%;
+  }
+
   .titlebox2 {
-    width: 65%;
+    width: 75%;
+    height:130px;
+  }
+
+  .titlebox3 {
+    width: 30%;
+    display: contents;
   }
 
   .grid-container {
@@ -932,7 +967,7 @@ cat-caption-box {
     height: 10%
   }
 
-  p, a {
+  p {
     font-size: 200%;
   }
 
@@ -942,8 +977,9 @@ cat-caption-box {
   }
 
   ul {
-    display: inline-flex;
+    display: block;
     gap: 10px;
+    
   }
 
   summary {
@@ -963,6 +999,35 @@ cat-caption-box {
     width: 176%;
   }
 
+  .joinup2 {
+    font-size: 140%;
+    margin: 0 auto;
+    width: 176%;
+  }
+
+  
+
+
+  .DesktopFooter {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .tablet-no {
+    display: none;
+  }
+
+  .news-container1, .news-container2, .news-container3 {
+    height: 250px
+  }
+
+
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -981,7 +1046,8 @@ cat-caption-box {
   }
 
   .joinup2 {
-    height: 291px;
+    height: 410px;
+    width: 600px;
     display: revert;
     
   }
