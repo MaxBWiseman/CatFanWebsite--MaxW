@@ -701,6 +701,7 @@ cat-caption-box {
   color: transparent;
 }
 /* END of code reasurched from https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1 */
+/*Phone screen query */
 @media only screen and (max-width: 425px) {
 
   html {
@@ -867,7 +868,7 @@ cat-caption-box {
     display: none;
   }
 }
-
+/*Tablet screen query */
 @media only screen and (min-width: 480px) {
 
   body {
@@ -1019,7 +1020,7 @@ cat-caption-box {
   }
 
 }
-
+/*PC screen query */
 @media only screen and (min-width: 1024px) {
 
   body {
@@ -1134,7 +1135,8 @@ cat-caption-box {
 
   .middle-pics {
     width: 95%;
-    height: 130px;
+    height: 
+    130px;
   }
   
   .cat-caption-container {
