@@ -303,7 +303,7 @@ details[open]>summary {
   border-style: solid;
   width: 450px;
   padding: 5px;
-  margin-bottom: 20px;
+  margin-bottom: -80px;
   background-image: url("../images/cats-header-20730-800x200.jpg");
   background-position: center;  
 }
@@ -318,8 +318,6 @@ details[open]>summary {
   width: 450px;
   padding: 5px;
   margin-bottom: 20px;
-  background-image: url("../images/pink-blue-texture-watercolor-artistic-abstract-background-hd-1920x1080.jpg");
-  background-position: center;  
 }
 
 
@@ -1012,6 +1010,7 @@ cat-caption-box {
 
   .joinup1 {
     display: revert;
+    width: 100px;
     
   }
 
@@ -1054,10 +1053,6 @@ cat-caption-box {
     
   }
 
-  .titlebox2 {
-    width: 65%;
-    
-  }
 
   .grid-container {
     display:flex;
@@ -1128,12 +1123,14 @@ cat-caption-box {
   }
   .titlebox2 {
     display:inline-block;
-    height:50px;
+    height:160px;
     width:600px;
   }
 
   .titlebox3 {
-    
+    height: 80px;
+    width: 30%;
+    display:contents;
   }
   
   .cat-caption-box {
