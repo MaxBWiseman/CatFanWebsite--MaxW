@@ -308,6 +308,22 @@ details[open]>summary {
   background-position: center;  
 }
 
+.titlebox3 {
+  text-align: center;
+  margin: 0 auto;
+  background-color: lightblue;
+  border-radius: 25px;
+  border-color: purple;
+  border-style: solid;
+  width: 450px;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-image: url("../images/pink-blue-texture-watercolor-artistic-abstract-background-hd-1920x1080.jpg");
+  background-position: center;  
+}
+
+
+
 .pageheader {
   text-align: center;
   margin: 0 auto;
@@ -624,7 +640,7 @@ td {
 }
 
 .joinup {
-  background-image: url("../images/kenyan-cat-web-header-image.jpg");
+  background-image: url("../images/pink-blue-texture-watercolor-artistic-abstract-background-hd-1920x1080.jpg");
   background-position: center;
 }
 
@@ -974,7 +990,7 @@ cat-caption-box {
 
 
 @media only screen and (min-width: 1024px) {
- 
+
   body {
     max-width: 200%;
 
@@ -1111,9 +1127,13 @@ cat-caption-box {
     
   }
   .titlebox2 {
-    display:inline;
-    height:100px;
+    display:inline-block;
+    height:50px;
     width:600px;
+  }
+
+  .titlebox3 {
+    
   }
   
   .cat-caption-box {
@@ -1126,11 +1146,11 @@ cat-caption-box {
 
   details {
     font-size: 20px;
-    text-align:center
+    text-align:center;
   }
 
   .multicolortext {
-    font-size: 20px
+    font-size: 30px
   }
 
   
@@ -1150,8 +1170,8 @@ cat-caption-box {
   }
 
   .main-title {
-    font-size: 300%;
-    display:revert;
+    font-size: 400%;
+    display:block;
   }
 
 
