@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&family=Indie+Flower&family=Rowdies:wght@300;400;700&display=swap');
 
+/* font styles */
 .bungee-spice-regular {
   font-family: "Bungee Spice", sans-serif;
   font-weight: 400;
@@ -42,11 +43,11 @@
 * {
   font-family: cursive, sans-serif, monospace;
 }
-
+/* end of font styles*/
 h2 {
   padding: 9px;
 }
-
+/* forms*/
 legend {
   font-weight: bold;
   background: orange;
@@ -61,7 +62,7 @@ fieldset {
   text-align: center;
   background-color: lightblue;
 }
-
+/* banners*/
 .middle-pics {
   display: block;
   margin-left: auto;
@@ -73,7 +74,7 @@ fieldset {
 figcaption {
   font-size: 20px;
 }
-
+/* main body*/
 body {
   background-color: lightgrey;
   max-width: 100%;
@@ -103,7 +104,7 @@ footer>p {
   background-position: center;
   background-size: cover;
 }
-
+/* news box pic 1*/
 .news-container1 {
   width: 400px;
   height: 175px;
@@ -114,7 +115,7 @@ footer>p {
   text-align: center;
   margin: 0 auto;
 }
-
+/* news box pic 2*/
 .news-container2 {
   width: 400px;
   height: 175px;
@@ -125,7 +126,7 @@ footer>p {
   text-align: center;
   margin: 0 auto;
 }
-
+/* news box pic 3*/
 .news-container3 {
   width: 400px;
   height: 175px;
@@ -197,7 +198,7 @@ li {
 li:hover {
   background-color: orange
 }
-
+/* google maps container*/
 .map-container {
   width: 500px;
   margin: 0 auto;
@@ -255,7 +256,7 @@ details:hover {
 details[open]>summary {
   margin-bottom: 0.5rem;
 }
-
+/* blue header*/
 .bluebox {
   text-align: center;
   margin: 0 auto;
@@ -267,7 +268,7 @@ details[open]>summary {
   padding: 5px;
   margin-bottom: 20px;
 }
-
+/* orange header*/
 .orangebox {
   text-align: center;
   margin: 0 auto;
@@ -281,7 +282,7 @@ details[open]>summary {
   background-image: url("../images/colorful-geometric-shapes-vector-background-pattern.jpg");
   background-position: center;
 }
-
+/* title headers 1*/
 .titlebox {
   text-align: center;
   margin: 0 auto;
@@ -293,7 +294,7 @@ details[open]>summary {
   padding: 5px;
   margin-bottom: 20px;
 }
-
+/* title headers 2*/
 .titlebox2 {
   text-align: center;
   margin: 0 auto;
@@ -321,7 +322,7 @@ details[open]>summary {
 }
 
 
-
+/* header no 1 background*/
 .pageheader {
   text-align: center;
   margin: 0 auto;
@@ -335,7 +336,7 @@ details[open]>summary {
   background-image: url("../images/cats-header-20730-800x200.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
 }
-
+/* header no 2 background*/
 .pageheader2 {
   text-align: center;
   margin: 0 auto;
@@ -352,7 +353,7 @@ details[open]>summary {
   background-size: cover;
   background-position: center;
 }
-
+/* header no 3 background*/
 .pageheader3 {
   text-align: center;
   margin: 0 auto;
@@ -366,7 +367,7 @@ details[open]>summary {
   background-image: url("../images/kenyan-cat-web-header-image.jpg");
   box-shadow: 0 5px 3px #3a3a3a;
 }
-
+/* header no 4 background*/
 .pageheader4 {
   text-align: center;
   margin: 0 auto;
@@ -381,7 +382,7 @@ details[open]>summary {
   box-shadow: 0 5px 3px #3a3a3a;
   background-position: center;
 }
-
+/* header no 5 background*/
 .pageheader5 {
   text-align: center;
   margin: 0 auto;
@@ -397,7 +398,7 @@ details[open]>summary {
   background-position: center;
   display: contents;
 }
-
+/* header no 6 background*/
 .pageheader6 {
   text-align: center;
   margin: 0 auto;
@@ -413,7 +414,7 @@ details[open]>summary {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* cat captions background*/
 .cat-caption-container {
   text-align: center;
   margin: 0 auto;
@@ -429,7 +430,7 @@ details[open]>summary {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* home page background*/
 .styledbox2-index {
   padding: 1rem 0;
   margin-bottom: 80px;
@@ -474,7 +475,7 @@ a:hover {
 #video-1 {
   padding: 1rem;
 }
-
+/* maps background*/
 .map-meetups {
   width: 100%;
   display: inline-block;
@@ -484,7 +485,7 @@ footer>li {
   margin-right: 9px;
   margin-bottom: 5px;
 }
-
+/* meetups background*/
 .styled-box2-meetups {
   padding: 1rem 0;
   margin-bottom: 80px;
@@ -529,7 +530,7 @@ h1 {
   padding: 5px;
   margin-bottom: 20px;
 }
-
+/* meetups rules*/
 .redbox-meetups {
   text-align: center;
   margin: 0 auto;
@@ -572,7 +573,7 @@ td {
   font-size: 20px;
   text-align: center;
 }
-
+/* competition form background*/
 .comp-fieldset {
   text-align: center;
   background-color: lightblue;
@@ -615,7 +616,7 @@ td {
   padding: 5px;
   margin-bottom: 20px;
 }
-
+/* competition background*/
 .styled-box2-comp {
   padding: 1rem 0;
   margin-bottom: 80px;
@@ -626,17 +627,17 @@ td {
   background-attachment: fixed;
   width: auto;
 }
-
+/*trivia background */
 .trivia {
   background-image: url("../images/colorful-shine-glare-abstract-background-full-hd-1920x1080.jpg");
   background-position: center;
 }
-
+/* news background*/
 .news {
   background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   background-position: center;
 }
-
+/* joinup background*/
 .joinup {
   background-image: url("../images/pink-blue-texture-watercolor-artistic-abstract-background-hd-1920x1080.jpg");
   background-position: center;
