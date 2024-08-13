@@ -1013,7 +1013,7 @@ cat-caption-box {
   }
 
   .DesktopFooter {
-    display: none;
+    display: block;
   }
 
   footer {
@@ -1033,6 +1033,9 @@ cat-caption-box {
     height: 250px;
   }
 
+  #mobile-footer {
+    display: none;
+  } 
 }
 /*PC screen query */
 @media only screen and (min-width: 1024px) {
