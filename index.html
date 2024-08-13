@@ -56,18 +56,7 @@
        about reasons to love cats" style="width:65%">
         </div>
         <div class="grid-pics" style="text-align:center;">
-<!--Newsletter signup form-->
-            <div id="signup">
-              <form method="post">
-                <fieldset class="titlebox joinup1">
-                  <legend>Sign Up!</legend>
-                  <p class="rowdies-bold"><strong>Sign up to our newsletter for the latest cat
-                      news, events, and exclusive offers!</strong></p>
-                  <label for="email">Email</label>
-                  <input type="email" name="email" id="email" placeholder="Enter Email" required>
-                  <input type="submit" id="submit">
-                </fieldset>
-              </form>
+            <div>
             </div>
         </div>
         <div class="grid-pics mobile-remove" style="text-align:center;">
@@ -84,7 +73,7 @@
           <ul>
             <li>
               <details>
-                <summary>Bengal</summary>
+                <summary class="facts">Bengal</summary>
                 <p>Bengal cats are beautiful, wild-looking, and smart cats.
                   This hybrid cat breed is
                   growing in popularity due to their pattern and personality,
@@ -94,7 +83,7 @@
             </li>
             <li>
               <details>
-                <summary>Sphynx</summary>
+                <summary class="facts">Sphynx</summary>
                 <p>The Sphynx cat also known as the Canadian Sphynx,
                   is a breed of cat known for its lack of fur. Hairlessness
                   in cats is a naturally occurring genetic mutation,
@@ -105,7 +94,7 @@
             </li>
             <li>
               <details>
-                <summary>Tabby</summary>
+                <summary class="facts">Tabby</summary>
                 <p>Tabby cats are one of the most common and recognizable
                   cat coat patterns. Their distinctive markings can vary widely,
                   but typically include stripes, swirls, spots,
@@ -114,7 +103,7 @@
             </li>
             <li>
               <details>
-                <summary>Ragdoll</summary>
+                <summary class="facts">Ragdoll</summary>
                 <p>The Ragdoll cat is a large, affectionate, and gentle breed known
                   for its striking blue eyes, silky semi-long fur, and docile temperament.
                   A beloved breed cherished for its affectionate nature, stunning appearance,
@@ -124,7 +113,7 @@
             </li>
             <li>
               <details>
-                <summary>Siamese</summary>
+                <summary class="facts">Siamese</summary>
                 <p>The Siamese cat epitomizes elegance, intelligence, and affection, making it
                   a beloved companion for cat enthusiasts worldwide. With their sleek appearance,
                   vocal nature, and loving personality, Siamese cats continue to captivate hearts
@@ -133,7 +122,7 @@
             </li>
             <li>
               <details>
-                <summary>Fluffy Maine Coon</summary>
+                <summary class="facts">Fluffy Maine Coon</summary>
                 <p>The Maine Coon cat embodies a majestic combination of size, beauty, and affection.
                   With their fluffy coat, friendly demeanor, and intelligence, Maine Coons make cherished companions
                   for cat lovers seeking a loyal and affectionate feline friend
@@ -149,7 +138,7 @@
           <ul>
             <li>
               <details>
-                <summary>Temperament</summary>
+                <summary class="facts">Temperament</summary>
                 <p>Understanding and respecting a cat's temperament is essential for building a
                   strong bond and providing appropriate care and enrichment. Each cat is unique, so it's
                   essential to observe and appreciate their individual personalities and preferences.
@@ -158,7 +147,7 @@
             </li>
             <li>
               <details>
-                <summary>History</summary>
+                <summary class="facts">History</summary>
                 <p>Throughout history, cats have captivated human imagination with their grace,
                   independence, and mysterious allure. From ancient guardians to modern-day lap warmers,
                   cats have left an indelible mark on human society and continue to be beloved members of
@@ -167,7 +156,7 @@
             </li>
             <li>
               <details>
-                <summary>Personality</summary>
+                <summary class="facts">Personality</summary>
                 <p>Understanding and respecting a cat's personality is essential for building a
                   strong bond and providing appropriate care and enrichment. Each cat is unique, so it's
                   essential to observe and appreciate their individual personalities and preferences.
@@ -176,7 +165,7 @@
             </li>
             <li>
               <details>
-                <summary>Health</summary>
+                <summary class="facts">Health</summary>
                 <p>By prioritizing these aspects of cat health, you can help ensure that your
                   feline companion enjoys a long, happy, and healthy life by your side. Regular veterinary
                   care, a nutritious diet, plenty of exercise, and a loving home environment are the cornerstones
@@ -185,7 +174,7 @@
             </li>
             <li>
               <details>
-                <summary>Zodiac</summary>
+                <summary class="facts">Zodiac</summary>
                 <p>The association between cats and the zodiac is often based on astrological beliefs
                   and symbolism.These associations between cats and the zodiac are often based on symbolic
                   connections rather than concrete astrological principles. However, they provide an interesting
@@ -203,7 +192,7 @@
           <ul>
             <li>
               <details>
-                <summary>Nutrition to Grooming</summary>
+                <summary class="facts">Nutrition to Grooming</summary>
                 <p>By prioritizing proper nutrition and grooming, you can help ensure that your cat maintains
                   optimal health and well-being throughout their life. Regular veterinary check-ups, preventive care,
                   and
@@ -213,7 +202,7 @@
             </li>
             <li>
               <details>
-                <summary>Behaviour to Health</summary>
+                <summary class="facts">Behaviour to Health</summary>
                 <p>By observing and understanding your cat's behavior, you can identify potential health problems
                   early and take appropriate action to ensure their well-being. Regular veterinary check-ups, preventive
                   care,
@@ -224,7 +213,7 @@
             </li>
             <li>
               <details>
-                <summary>Comprehensive Guides and Articles</summary>
+                <summary class="facts">Comprehensive Guides and Articles</summary>
                 <p>By consulting comprehensive guides and articles on cats, pet owners can access valuable
                   information
                   to ensure the health, happiness, and longevity of their feline companions. These resources serve as
@@ -405,11 +394,9 @@
     <!-- Post your own Cat Caption (not functional within this projects coding language scope)-->
     <div class="postpicturecontainer">
       <form method="POST">
-        <div>
+        <div class="postdiv">
           <label class="pageheader4" for="cat-photo" style="font-size:small">Post your own funny Cat Caption
             here!</label>
-        </div>
-        <div>
           <input class="border" type="file" name="cat-photo" id="cat-photo" accept="image/png, image/jpeg">
         </div>
       </form>
@@ -434,7 +421,7 @@
     </div>
     <br>
     <!-- Google maps location-->
-    <div class="map-container">
+    <div class="map-container" id="indexmap">
       <div class="map">
         <div>
           <iframe id="video-1"

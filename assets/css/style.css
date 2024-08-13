@@ -89,10 +89,6 @@ body {
   background-attachment: fixed;
 }
 
-main {
-  flex: 1 0 auto;
-}
-
 footer>p {
   border-radius: 50%;
   border-color: darkorange;
@@ -179,6 +175,10 @@ ul li {
   border-radius: 25px;
   font-size: large;
 
+}
+
+.postdiv {
+  text-align: center;
 }
 
 li {
@@ -711,7 +711,6 @@ cat-caption-box {
 
   body {
     width: auto;
-    margin: 0 auto;
   }
 
   td {
@@ -757,8 +756,6 @@ cat-caption-box {
     width: 200px;
     display: contents;
   }
-
- 
 
   .DesktopFooter {
     display: none;
@@ -872,12 +869,16 @@ cat-caption-box {
 /*Tablet screen query */
 @media only screen and (min-width: 480px) {
 
+  main {
+    max-width: 100%;
+  }
+
   body {
-    max-width: 200%;
+    max-width: 100%;
   }
 
   html {
-    max-width: 200%;
+    max-width: 100%;
   }
 
   .styledbox2-index {
@@ -926,9 +927,14 @@ cat-caption-box {
     width: 150%;
   }
 
+  .postdiv {
+    display: none;
+  }
+
   .titlebox2 {
     width: 75%;
     height:130px;
+    max-width: 700px;
   }
 
   .titlebox3 {
@@ -979,6 +985,10 @@ cat-caption-box {
     
   }
 
+  .facts {
+    font-size: 200%;
+  }
+
   summary {
     font-size: 100%;
   }
@@ -1007,9 +1017,12 @@ cat-caption-box {
   }
 
   footer {
-    width: 100%;
     margin: 0 auto;
     text-align: center;
+  }
+
+  #indexmap {
+    display: none;
   }
 
   .tablet-no {
@@ -1032,6 +1045,10 @@ cat-caption-box {
     max-width: 200%;
   }
 
+  #indexmap {
+    display: block;
+  }
+
   .styledbox2-index {
     width: 100%;
   }
@@ -1044,7 +1061,7 @@ cat-caption-box {
 
   .joinup1 {
     display: revert;
-    width: 100px;
+    width: 300px;
   }
 
   .grid-pics {
@@ -1056,6 +1073,10 @@ cat-caption-box {
   .blurb {
     display:inline-block;
     width: 95%;
+  }
+
+  .postdiv {
+    display: revert;
   }
 
   .mobile-remove {
@@ -1190,6 +1211,10 @@ cat-caption-box {
   .main-title {
     font-size: 400%;
     display:block;
+  }
+
+  .facts {
+    font-size: 120%;
   }
 
 }
