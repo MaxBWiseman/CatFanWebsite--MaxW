@@ -105,7 +105,7 @@ footer>p {
   width: 400px;
   height: 175px;
   border-radius: 25px;
-  background-image: url("../images/OIP.jpeg");
+  background-image: url("../images/angrywallcat.webp");
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -116,7 +116,7 @@ footer>p {
   width: 400px;
   height: 175px;
   border-radius: 25px;
-  background-image: url("../images/R.jpeg");
+  background-image: url("../images/girlwithcat.jpeg");
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -127,7 +127,7 @@ footer>p {
   width: 400px;
   height: 175px;
   border-radius: 25px;
-  background-image: url("../images/7719ce60-f80c-11ee-8413-8d1fbc0364d9.jpg.webp");
+  background-image: url("../images/newsworkerspic.webp");
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -434,7 +434,7 @@ details[open]>summary {
 .styledbox2-index {
   padding: 1rem 0;
   margin-bottom: 80px;
-  background-image: url("../images/439038.jpg");
+  background-image: url("../images/spacecatbackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -620,7 +620,7 @@ td {
 .styled-box2-comp {
   padding: 1rem 0;
   margin-bottom: 80px;
-  background-image: url("../images/5922554.jpg");
+  background-image: url("../images/spacecatcomp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;

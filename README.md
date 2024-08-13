@@ -16,7 +16,7 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 # About
-This website is dedicated to cat enthusiasts who share our love for furry companions. This website was created with HTML and CSS, and a special thanks to Code Institute for providing me with the guidance to create this project. So, whether you’re a seasoned cat owner or simply adore feline friends, this platform is for you. Here’s what you’ll find:
+This website was my first ever website, using no bootstrap or any other pre made assets, its dedicated to cat enthusiasts who share our love for furry companions. This website was created with HTML and CSS, and a special thanks to Code Institute for providing me with the guidance to create this project. So, whether you’re a seasoned cat owner or simply adore feline friends, this platform is for you. Here’s what you’ll find:
 
 
 # Features
@@ -84,6 +84,8 @@ This website is dedicated to cat enthusiasts who share our love for furry compan
 ### There is a bug with responsive design on tablet view at the bottom of the index.html page. 
 ![alt text](assets/images/knownbug.png)
 
+### Update on responsive design bug, removed map for tablet view and hid mobile only footer, centering still needed
+![alt text](assets/images/knownbug.png))
 
 # Possible new features
 
