@@ -104,7 +104,15 @@ This website was my first ever website, using no bootstrap or any other pre made
 ![alt text](assets/images/cssvalidator.png)
 
 
+# Credits
 
+### - Credits to google images for the pictures (not including my own picutures of my own cats)
+
+### - Thanks to w3schools for css advice: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+
+### - Thanks to bing search engine for showing me how to get multicolored text: https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1*/ 
+
+### - Thanks to free web headers for images: https://www.freewebheaders.com/animals/cats-headers/
 
 ## Thanks for taking time to check out my first ever website! 🐾
 
