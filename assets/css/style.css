@@ -1071,10 +1071,13 @@ cat-caption-box {
 
   .blurb {
     display: inline-block;
-    background-color: rgba(0, 0, 255, 0.5);
-    width: 0 auto;
+    background-color: rgba(0, 0, 255, 0.2);
+    width: 75%;
     border-radius: 25px;
     gap: 10px;
+    text-align:center;
+    margin:0 auto;
+    letter-spacing: 2px;
 }
 
   .postdiv {
