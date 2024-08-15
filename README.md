@@ -10,20 +10,6 @@
 
 #### Here is the GitHub Pages link to *[Cat Lover's Retreat](https://maxbwiseman.github.io/CatFanWebsite--MaxW/)*.
 
-# Deployment
-
-- This site was deployed to GitHub Pages
-
-- In the repository navigate to the setting tab
-
-- From the source section drop down menu select the master branch
-
-- Once the master branch has been selected, the page provided the link to the completed website
-
-= https://maxbwiseman.github.io/CatFanWebsite--MaxW/
-
-Or click the link above!
-
 
 # About
 This website was my first ever website, using no bootstrap or any other pre made assets, its dedicated to cat enthusiasts who share our love for furry companions. This website was created with HTML and CSS, and a special thanks to Code Institute for providing me with the guidance to create this project. So, whether you’re a seasoned cat owner or simply adore feline friends, this platform is for you. Here’s what you’ll find:
@@ -60,7 +46,38 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 ### Let’s celebrate our whiskered companions together! 🐱
 
+# Testing
 
+### Testing on this project was mainly done manually by myself
+
+## Testing game
+| Test |Outcome  |
+|--|--|
+|Navigation | Pass |
+|Page links (e.g news links)| Pass|
+|No image errors| Pass|
+|Form submits| Pass|
+|Footer links | Pass|
+|Form error if not all fields are entered before send |Pass|
+|No lorem ipsum |Pass|
+
+## Testing for responsiveness
+| Test |Outcome  |
+|--|--|
+|Home page displays correctly on screens larger than 950px|Pass |
+|Home page displays correctly on screens smaller than 950px |Pass |
+
+## User testing
+
+### I let my Mum use the website and found that - 
+
+| Test | Result |
+|--|--|
+|Upon arrival the facts area was used and clicked on| 100%|
+|The quiz was played |100%  |
+|Navigation between all pages| 100%|
+|A positive reaction from the funny cat captions| 100%|
+|Google maps API was looked at| 100%|
 
 
 # Lighthouse
@@ -114,16 +131,71 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 ![alt text](assets/images/cssvalidator.png)
 
+## Deployment
+
+- This site was deployed to GitHub Pages
+
+- In the repository navigate to the setting tab
+
+- From the source section drop down menu select the master branch
+
+- Once the master branch has been selected, the page provided the link to the completed website
+
+= https://maxbwiseman.github.io/CatFanWebsite--MaxW//
+
+Or click the link above!
+
+### If you wish to download as a zip file
+
+- Navigate to the Code dropdown near the about section for the project
+
+- Download Zip at the bottom of the drop down
+
+- Find the download location and extract all from the zip file
+
+- Open a editor like VS code
+
+- Press Explorer and select "Open File"
+
+- Navigate to the download location of the extracted zip file
+
+- Click into the folder until the title is not showing as a file
+
+- Open Folder in the bottom right
+
+- Either use the "Live Server" Extension  by Ritwick Dey to easily start a server on the bottom right of the editor with "Go Live" button (Extension must be installed)
+
+- Or boot a local server with python aslong as its installed on your machine  with - "python3 -m http.server" inside the terminal (ctrl-j)
+
+### Github Fork
+
+- You may fork the repository into your own with the "Fork" button on this projects github page
+
+- Navigate to your repositorys and clicki on your fork of this project
+
+- Navigate on the top bar to "Settings"
+
+- Then to "Pages"
+
+- Deploy from the latest branch (or an older one if desire)
+
+- Press "Save", your pages link should show on the "Pages" tab in 3 minutes or less
+
+
 
 # Credits
 
-### - Credits to google images for the pictures (not including my own picutures of my own cats)
+### - Credits to google images for picture search (not including my own picutures of my own cats)
 
-### - Thanks to w3schools for css advice: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+### - Cat Captions from: https://www.catshaming.co.uk/
+
+### - Thanks to w3schools for css advice on positioning images side by side: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
 
 ### - Thanks to bing search engine for showing me how to get multicolored text: https://www.bing.com/search?pglt=41&q=how+to+get+text+to+flash+different+colors+html+css&cvid=db48e436c54c4c8e9c163fea72130182&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgwODZqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS&showconv=1*/ 
 
-### - Thanks to free web headers for images: https://www.freewebheaders.com/animals/cats-headers/
+### - Thanks to free web headers for images and banners: https://www.freewebheaders.com/animals/cats-headers/
+
+### - Credit to BBC News for there funny articles on cats: https://www.bbc.com/news
 
 ## Thanks for taking time to check out my first ever website! 🐾
 
