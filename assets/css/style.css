@@ -34,6 +34,7 @@
 .honk {
   font-family: "Honk", system-ui;
   font-weight: 400;
+  gap: 15px;
   font-style: normal;
   font-variation-settings:
     "MORF"15,
@@ -844,11 +845,6 @@ cat-caption-box {
     width: 85%;
   }
 
-  .blurb {
-    width: 70%;
-    margin-left: 55px;
-  }
-
   .main-title {
     font-size: 270%
   }
@@ -1074,9 +1070,12 @@ cat-caption-box {
   }
 
   .blurb {
-    display:inline-block;
-    width: 95%;
-  }
+    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 0 auto;
+    border-radius: 25px;
+    gap: 10px;
+}
 
   .postdiv {
     display: revert;
@@ -1099,7 +1098,7 @@ cat-caption-box {
   }
 
   .honk {
-    font-size: 150%;
+    font-size: 250%;
   }
 
   .important-info {
