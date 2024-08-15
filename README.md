@@ -11,11 +11,11 @@
 #### Here is the GitHub Pages link to *[Cat Lover's Retreat](https://maxbwiseman.github.io/CatFanWebsite--MaxW/)*.
 
 
-# About
+# <u>About</u>
 This website was my first ever website, using no bootstrap or any other pre made assets, its dedicated to cat enthusiasts who share our love for furry companions. This website was created with HTML and CSS, and a special thanks to Code Institute for providing me with the guidance to create this project. So, whether you’re a seasoned cat owner or simply adore feline friends, this platform is for you. Here’s what you’ll find:
 
 
-# Features
+# <u>Features</u>
 
 ### <u>Meetups</u>
 ### Stay informed about cat-related gatherings! Our meetup page provides details on upcoming events, locations, and times.
@@ -46,7 +46,7 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 ### Let’s celebrate our whiskered companions together! 🐱
 
-# Testing
+# <u>Testing</u>
 
 ### Testing on this project was mainly done manually by myself
 
@@ -113,14 +113,6 @@ This website was my first ever website, using no bootstrap or any other pre made
 ### Update on responsive design bug, removed map for tablet view and hid mobile only footer, centering still needed
 ![alt text](assets/images/knownbug.png))
 
-### Bug with footer on tablet view not centering
-
-# Possible new features
-
-### 1. A feature like a chat room for members , so people can freely talk about cat related things together.
-### 2. A working Cat Caption submit button, so people can freely submit cat photos
-
-
 # HTML/CSS Tests
 
 ![alt text](assets/images/indexhtmltest.png)
@@ -130,6 +122,13 @@ This website was my first ever website, using no bootstrap or any other pre made
 ![alt text](assets/images/htmlcheckmeetups.png)
 
 ![alt text](assets/images/cssvalidator.png)
+
+# Possible new features
+
+### 1. A feature like a chat room for members , so people can freely talk about cat related things together.
+### 2. A working Cat Caption submit button, so people can freely submit cat photos
+### Bug with footer on tablet view not centering
+
 
 ## Deployment
 
