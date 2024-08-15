@@ -106,13 +106,6 @@ This website was my first ever website, using no bootstrap or any other pre made
 ![alt text](assets/images/ssmobile5.png)
 
 
-# Known Bugs
-### There is a bug with responsive design on tablet view at the bottom of the index.html page. 
-![alt text](assets/images/knownbug.png)
-
-### Update on responsive design bug, removed map for tablet view and hid mobile only footer, centering still needed
-![alt text](assets/images/knownbug.png))
-
 # HTML/CSS Tests
 
 ![alt text](assets/images/indexhtmltest.png)
@@ -127,8 +120,6 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 ### 1. A feature like a chat room for members , so people can freely talk about cat related things together.
 ### 2. A working Cat Caption submit button, so people can freely submit cat photos
-### Bug with footer on tablet view not centering
-
 
 ## Deployment
 
@@ -180,6 +171,14 @@ Or click the link above!
 
 - Press "Save", your pages link should show on the "Pages" tab in 3 minutes or less
 
+# Known Bugs
+### There is a bug with responsive design on tablet view at the bottom of the index.html page. 
+![alt text](assets/images/knownbug.png)
+
+### Update on responsive design bug, removed map for tablet view and hid mobile only footer, centering still needed
+![alt text](assets/images/knownbug2.png)
+
+### Temporary fix with centering with 'margin-left:350px;'
 
 
 # Credits
