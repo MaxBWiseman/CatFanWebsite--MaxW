@@ -1,6 +1,10 @@
 # Cat Lover's Retreat Website by Max Wiseman
 
-![alt text](assets/images/editedcatcoder.png)
+<p align="center">
+    <!--     You can add your logo in the _src_ below -->
+    <img src="assets/images/catfansitereadmebanner.png" />
+</p>
+
 
 ### Welcome to the Cat Lover's Retreat Website! 🐾
 
@@ -8,12 +12,18 @@
 
 # Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+- This site was deployed to GitHub Pages
 
-The site was deployed to GitHub pages. Which is shown above. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- In the repository navigate to the setting tab
+
+- From the source section drop down menu select the master branch
+
+- Once the master branch has been selected, the page provided the link to the completed website
+
+= https://maxbwiseman.github.io/CatFanWebsite--MaxW/
+
+Or click the link above!
+
 
 # About
 This website was my first ever website, using no bootstrap or any other pre made assets, its dedicated to cat enthusiasts who share our love for furry companions. This website was created with HTML and CSS, and a special thanks to Code Institute for providing me with the guidance to create this project. So, whether you’re a seasoned cat owner or simply adore feline friends, this platform is for you. Here’s what you’ll find:
@@ -21,30 +31,30 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 # Features
 
-## Meetups
+### <u>Meetups</u>
 ### Stay informed about cat-related gatherings! Our meetup page provides details on upcoming events, locations, and times.
 ![alt text](assets/images/catmeetupspic.png)
-## Competitions
+### <u>Competitions</u>
 ### Get ready for some feline fun! Explore ongoing cat-themed competitions with exciting prizes up for grabs.
 ![alt text](assets/images/catcompic.png)
-## Cat Gallery
+### <u>Cat Gallery</u>
 ### Enjoy a delightful collection of cat pictures. Each image comes with a humorous caption, showcasing our feline friends in various adorable scenarios.
 ![alt text](assets/images/catgallerypic.png)
-## Cat News Hub
+### <u>Cat News Hub</u>
 ### Stay updated on the latest cat-related news. From heartwarming stories to scientific discoveries, we’ve got it covered.
 ![Cat Lovers quick tips lists](assets/images/catnews.png)
-## Join the Community
+### <u>Join the Community</u>
 ### Share your passion! Sign up with your email address to receive updates, exclusive content, and invitations to special events.
 ![alt text](assets/images/joincommunity.png)
-## Quick Tips
+### <u>Quick Tips</u>
 ### Need cat advice? Click on our interactive icons for handy tips and facts about cat care, behavior, and more.
 ![Cat Lovers quick tips lists](assets/images/catclubpic2.png)
 ![Cat Lovers quick tips lists](assets/images/editedquicktips.png)
-## Weekly Cat Quiz
+### <u>Weekly Cat Quiz</u>
 ### Test your cat knowledge! Take our fun and brief weekly quiz to challenge yourself and learn something new.
 ![alt text](assets/images/catquizpic1.png)
 ![alt text](assets/images/catquizpic2.png)
-## Competition Application
+### <u>Competition Application</u>
 ### Ready to participate? Head over to our competition application page and submit your entry.
 ![alt text](assets/images/compform.png)
 
@@ -57,16 +67,16 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 ### This website was tested for responsiveness using microsoft lighthouse
 
-## For PC
+### <u>For PC</u>
 
 ![alt text](assets/images/catclublighthouse.png)
 
-## For Mobile
+### <u>For Mobile</u>
 
 ![alt text](assets/images/catclubmobilelighthouse.png)
 
 
-# Mobile support
+# Responsiveness
 
 ### The Cat Lover's Retreat should be viewable on most phones, tablets/pads will not work very well and support for them is a possible feature in the future. Here are some screenshots taken with a Iphone SE phoneview - 
 
@@ -118,3 +128,4 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 #### Here is the GitHub Pages link to *[Cat Lover's Retreat](https://maxbwiseman.github.io/CatFanWebsite--MaxW/)*.
 
+![alt text](assets/images/editedcatcoder.png)
