@@ -97,6 +97,8 @@ This website was my first ever website, using no bootstrap or any other pre made
 ### Update on responsive design bug, removed map for tablet view and hid mobile only footer, centering still needed
 ![alt text](assets/images/knownbug.png))
 
+### Bug with footer on tablet view not centering
+
 # Possible new features
 
 ### 1. A feature like a chat room for members , so people can freely talk about cat related things together.
