@@ -84,10 +84,9 @@ This website was my first ever website, using no bootstrap or any other pre made
 ![alt text](assets/images/ccmobile2.png)
 ![alt text](assets/images/ssmobile3.png)
 ![alt text](assets/images/ssmobile4.png)
-![alt text](assets/images/ssmobile5.png)
 ![alt text](assets/images/ssmobile6.png)
 ![alt text](assets/images/ssmobile7.png)
-![alt text](assets/images/ssmobile8.png)
+![alt text](assets/images/ssmobile5.png)
 
 
 # Known Bugs
