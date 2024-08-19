@@ -185,7 +185,7 @@ Or click the link above!
 
 # Credits
 
-### - Credits to google images for picture search (not including my own picutures of my own cats)
+### - Credits to google images (not including my own picutures of my own cats)
 
 ### - Cat Captions from: https://www.catshaming.co.uk/
 
