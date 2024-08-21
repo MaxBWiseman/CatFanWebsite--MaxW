@@ -171,17 +171,17 @@ Or click this link! = https://maxbwiseman.github.io/CatFanWebsite--MaxW//
 - Press "Save", your pages link should show on the "Pages" tab in 3 minutes or less
 
 # Known Bugs
-### There is a bug with responsive design on tablet view at the bottom of the index.html page. 
+### 1. There is a bug with responsive design on tablet view at the bottom of the index.html page. 
 ![alt text](assets/images/knownbug.png)
 
-### Update on responsive design bug, removed map for tablet view and hid mobile only footer, centering still needed.
+### 2. Update on responsive design bug, removed map for tablet view and hid mobile only footer, centering still needed.
 ![alt text](assets/images/knownbug2.png)
 
-### Temporary fix with centering with 'margin-left:350px;'
+### 3. Temporary fix with centering with 'margin-left:75px;'
 
-### Githubs version of markdown does not support the <u></u> tags, changed to '**' asterisk bold in my readme file.
+### 4. Githubs version of markdown does not support the <u></u> tags, changed to '**' asterisk bold in my readme file.
 
-### There is a strange bug with responsive design were sometimes using developer tools on my website to check responsivness, it doesnt work and requires to select a phone screen (e.g Samsung Galaxy S8+) and then responsiveness kicks in again. Not sure what causes this hiccup. Here is a video posted to youtube as the file size was too big for github, to explain the strange issue - 
+### 5. There is a strange bug with responsive design were sometimes using developer tools on my website to check responsivness, it doesnt work and requires to select a phone screen (e.g Samsung Galaxy S8+) and then responsiveness kicks in again. Not sure what causes this hiccup. Here is a video posted to youtube as the file size was too big for github, to explain the strange issue - 
 
 [Bug Video, will direct to YouTube](https://youtube.com/shorts/uA5qZLmV-Kg?feature=share)
 
