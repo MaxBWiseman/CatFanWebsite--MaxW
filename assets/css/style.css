@@ -160,7 +160,7 @@ h3 {
   margin: 0 auto;
   background-color: lightblue;
 }
-
+/*List elements */
 ul {
   display: table;
   margin: 0 auto;
@@ -442,7 +442,7 @@ details[open]>summary {
   background-attachment: fixed;
   width: 110%;
 }
-
+/*Nav/Link styles */
 nav {
   margin: 0 auto;
 }
@@ -496,7 +496,7 @@ footer>li {
   background-position: center top;
   background-attachment: fixed;
 }
-
+/*Table styles for meetups */
 table {
   width: 100%;
   margin: 20px 0;
@@ -507,7 +507,7 @@ h1 {
   text-align: center;
   margin: 0 auto;
 }
-
+/*Meetups page cards */
 .bluebox-meetups {
   text-align: center;
   margin: 0 auto;
@@ -547,7 +547,7 @@ h1 {
 .special-li {
   display: inline-block;
 }
-
+/*Meetups table */
 th {
   background-color: orange;
   border-radius: 5px;
@@ -583,7 +583,7 @@ td {
   background-image: url("../images/colorful-tie-dye-background-vector-design-hd.jpg");
   background-position: center;
 }
-
+/*compeition page map */
 .map-comp {
   width: 100%;
   display: inline-block;
@@ -592,7 +592,7 @@ td {
 .comp-li {
   margin-right: 20px;
 }
-
+/* competition page cards */
 .bluebox-comp {
   text-align: center;
   margin: 0 auto;
@@ -662,7 +662,7 @@ td {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-
+/*Cat caption pictures containers/styles */
 .grid-item {
   padding: 10px;
   border: 1px solid purple;
