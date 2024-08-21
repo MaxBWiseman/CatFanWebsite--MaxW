@@ -95,7 +95,7 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 # Responsiveness
 
-### The Cat Lover's Retreat should be viewable on most phones, tablets/pads will not work very well and support for them is a possible feature in the future. Here are some screenshots taken with a Iphone SE phoneview - 
+### The Cat Lover's Retreat should be viewable on most phones, tablet support is now availible too! Here are some screenshots taken with a Iphone SE phoneview - 
 
 ![alt text](assets/images/ccmobile1.png)
 ![alt text](assets/images/ccmobile2.png)
@@ -125,15 +125,14 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 - This site was deployed to GitHub Pages
 
-- In the repository navigate to the setting tab
+- In the repository navigate to the Deployments section on the righthand side under the "About" section - https://github.com/MaxBWiseman/CatFanWebsite--MaxW/deployments
 
-- From the source section drop down menu select the master branch
+- Select the link at the top of the deployments list
 
-- Once the master branch has been selected, the page provided the link to the completed website
+- Enjoy your time at Cat Lovers Retreat!
 
-= https://maxbwiseman.github.io/CatFanWebsite--MaxW//
+Or click this link! = https://maxbwiseman.github.io/CatFanWebsite--MaxW//
 
-Or click the link above!
 
 ### If you wish to download as a zip file
 
@@ -159,9 +158,9 @@ Or click the link above!
 
 ### Github Fork
 
-- You may fork the repository into your own with the "Fork" button on this projects github page
+- You may fork the repository into your own repo with the "Fork" button on this projects github page at the top right next to "Starred"
 
-- Navigate to your repositorys and clicki on your fork of this project
+- Navigate to your repositorys and click on your fork of this project
 
 - Navigate on the top bar to "Settings"
 
@@ -181,6 +180,8 @@ Or click the link above!
 ### Temporary fix with centering with 'margin-left:350px;'
 
 ### Githubs version of markdown does not support the <u></u> tags, changed to '**' asterisk bold in my readme file.
+
+### There is a strange bug with responsive design were sometimes using developer tools on my website to check responsivness, it doesnt work and requires to select a phone screen (e.g Samsung Galaxy S8+) and then responsiveness kicks in again. Not sure what causes this hiccup. Here is a video to explain the strange issue - 
 
 
 # Credits
