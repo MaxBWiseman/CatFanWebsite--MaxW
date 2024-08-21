@@ -19,30 +19,30 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 ### **Meetups**
 ### Stay informed about cat-related gatherings! Our meetup page provides details on upcoming events, locations, and times.
-![alt text](assets/images/catmeetupspic.png)
+![Meetups page picture](assets/images/catmeetupspic.png)
 ### **Competitions**
 ### Get ready for some feline fun! Explore ongoing cat-themed competitions with exciting prizes up for grabs.
-![alt text](assets/images/catcompic.png)
+![Competition page picture](assets/images/catcompic.png)
 ### **Cat Gallery**
 ### Enjoy a delightful collection of cat pictures. Each image comes with a humorous caption, showcasing our feline friends in various adorable scenarios.
-![alt text](assets/images/catgallerypic.png)
+![Cat gallery picture](assets/images/catgallerypic.png)
 ### **Cat News Hub**
 ### Stay updated on the latest cat-related news. From heartwarming stories to scientific discoveries, we’ve got it covered.
-![Cat Lovers quick tips lists](assets/images/catnews.png)
+![Cat news picture](assets/images/catnews.png)
 ### **Join the Community**
 ### Share your passion! Sign up with your email address to receive updates, exclusive content, and invitations to special events.
-![alt text](assets/images/joincommunity.png)
+![Community Signup picture ](assets/images/joincommunity.png)
 ### **Quick Tips**
 ### Need cat advice? Click on our interactive icons for handy tips and facts about cat care, behavior, and more.
 ![Cat Lovers quick tips lists](assets/images/catclubpic2.png)
 ![Cat Lovers quick tips lists](assets/images/editedquicktips.png)
 ### **Weekly Cat Quiz**
 ### Test your cat knowledge! Take our fun and brief weekly quiz to challenge yourself and learn something new.
-![alt text](assets/images/catquizpic1.png)
-![alt text](assets/images/catquizpic2.png)
+![Cat Quiz picture](assets/images/catquizpic1.png)
+![Cat Quiz picture](assets/images/catquizpic2.png)
 ### **Competition Application**
 ### Ready to participate? Head over to our competition application page and submit your entry.
-![alt text](assets/images/compform.png)
+![Competition form picture](assets/images/compform.png)
 
 ### Let’s celebrate our whiskered companions together! 🐱
 
@@ -86,11 +86,11 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 ### **For PC**
 
-![alt text](assets/images/catclublighthouse.png)
+![Lighthouse Report for pc](assets/images/catclublighthouse.png)
 
 ### **For Mobile**
 
-![alt text](assets/images/catclubmobilelighthouse.png)
+![Lighthouse report for mobile](assets/images/catclubmobilelighthouse.png)
 
 
 # Responsiveness
@@ -105,16 +105,24 @@ This website was my first ever website, using no bootstrap or any other pre made
 ![alt text](assets/images/ssmobile7.png)
 ![alt text](assets/images/ssmobile5.png)
 
+### New tablet view! Screenshots taken with Ipad dimensions
+
+![alt text](assets/images/tabletscreenshot1.png)
+![alt text](assets/images/tabletscreenshot2.png)
+![alt text](assets/images/tabletscreenshot3.png)
+![alt text](assets/images/tabletscreenshot4.png)
+![alt text](assets/images/tabletscreenshot5.png)
+
 
 # HTML/CSS Tests
 
-![alt text](assets/images/indexhtmltest.png)
+![HTML index page test](assets/images/indexhtmltest.png)
 
-![alt text](assets/images/htmlcheckquestionair.png)
+![HTML questionair page test](assets/images/htmlcheckquestionair.png)
 
-![alt text](assets/images/htmlcheckmeetups.png)
+![HTML meetups page test](assets/images/htmlcheckmeetups.png)
 
-![alt text](assets/images/cssvalidator.png)
+![CSS validator test](assets/images/cssvalidator.png)
 
 # Possible new features
 
@@ -172,10 +180,10 @@ Or click this link! = https://maxbwiseman.github.io/CatFanWebsite--MaxW//
 
 # Known Bugs
 ### 1. There is a bug with responsive design on tablet view at the bottom of the index.html page. 
-![alt text](assets/images/knownbug.png)
+![Responsive design bug](assets/images/knownbug.png)
 
 ### 2. Update on responsive design bug, removed map for tablet view and hid mobile only footer, centering still needed.
-![alt text](assets/images/knownbug2.png)
+![Responsive design bug](assets/images/knownbug2.png)
 
 ### 3. Temporary fix with centering with 'margin-left:75px;'
 
@@ -203,4 +211,4 @@ Or click this link! = https://maxbwiseman.github.io/CatFanWebsite--MaxW//
 
 #### Here is the GitHub Pages link to *[Cat Lover's Retreat](https://maxbwiseman.github.io/CatFanWebsite--MaxW/)*.
 
-![alt text](assets/images/editedcatcoder.png)
+![Cute cat on a laptop](assets/images/editedcatcoder.png)
