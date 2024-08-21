@@ -183,7 +183,6 @@ Or click this link! = https://maxbwiseman.github.io/CatFanWebsite--MaxW//
 
 ### There is a strange bug with responsive design were sometimes using developer tools on my website to check responsivness, it doesnt work and requires to select a phone screen (e.g Samsung Galaxy S8+) and then responsiveness kicks in again. Not sure what causes this hiccup. Here is a video to explain the strange issue - 
 
-
 # Credits
 
 ### - Credits to google images (not including my own picutures of my own cats)
