@@ -105,7 +105,7 @@ This website was my first ever website, using no bootstrap or any other pre made
 ![alt text](assets/images/ssmobile7.png)
 ![alt text](assets/images/ssmobile5.png)
 
-### New tablet view! Screenshots taken with Ipad dimensions
+## New tablet view! Screenshots taken with Ipad dimensions
 
 ![alt text](assets/images/tabletscreenshot1.png)
 ![alt text](assets/images/tabletscreenshot2.png)
