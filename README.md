@@ -126,18 +126,16 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 # Possible new features
 
-### 1. A feature like a chat room for members , so people can freely talk about cat related things together.
-### 2. A working Cat Caption submit button, so people can freely submit cat photos
+- 1. A feature like a chat room for members , so people can freely talk about cat related things together.
+- 2. A working Cat Caption submit button, so people can freely submit cat photos
 
 ## Deployment
 
-- This site was deployed to GitHub Pages
-
-- In the repository navigate to the Deployments section on the righthand side under the "About" section - https://github.com/MaxBWiseman/CatFanWebsite--MaxW/deployments
-
-- Select the link at the top of the deployments list
-
-- Enjoy your time at Cat Lovers Retreat!
+- 1. Clicked on Settings on the navigation menu in the repository
+- 2. I then selected the Pages menu on the side bar.
+- 3. In the first dropdown menu labeled Source I selected the branch of the name main from the dropdown.
+- 4. In the next dropdown labeled /root I left as the default option.
+- 5. Selected Save
 
 Or click this link! = https://maxbwiseman.github.io/CatFanWebsite--MaxW//
 
