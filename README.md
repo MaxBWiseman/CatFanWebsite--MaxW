@@ -126,19 +126,16 @@ This website was my first ever website, using no bootstrap or any other pre made
 
 # Possible new features
 
-- 1. A feature like a chat room for members , so people can freely talk about cat related things together.
-- 2. A working Cat Caption submit button, so people can freely submit cat photos
+- A feature like a chat room for members , so people can freely talk about cat related things together.
+- A working Cat Caption submit button, so people can freely submit cat photos
 
-## Deployment
+## My Deployment
 
-- 1. Clicked on Settings on the navigation menu in the repository
-- 2. I then selected the Pages menu on the side bar.
-- 3. In the first dropdown menu labeled Source I selected the branch of the name main from the dropdown.
-- 4. In the next dropdown labeled /root I left as the default option.
-- 5. Selected Save
-
-Or click this link! = https://maxbwiseman.github.io/CatFanWebsite--MaxW//
-
+- Clicked on Settings on the navigation menu in the repository
+- I then selected the Pages menu on the side bar.
+- In the first dropdown menu labeled Source I selected the branch of the name main from the dropdown.
+- In the next dropdown labeled /root I left as the default option.
+- Selected Save
 
 ### If you wish to download as a zip file
 
@@ -175,6 +172,10 @@ Or click this link! = https://maxbwiseman.github.io/CatFanWebsite--MaxW//
 - Deploy from the latest branch (or an older one if desire)
 
 - Press "Save", your pages link should show on the "Pages" tab in 3 minutes or less
+
+### Quick Link
+
+### Or click this link! = https://maxbwiseman.github.io/CatFanWebsite--MaxW//
 
 # Known Bugs
 ### 1. There is a bug with responsive design on tablet view at the bottom of the index.html page. 
